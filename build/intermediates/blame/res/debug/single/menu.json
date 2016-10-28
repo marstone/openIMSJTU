@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/menu/menu_invite_tribe_member.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/res/menu/menu_invite_tribe_member.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/menu/menu_at_msg_list.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/res/menu/menu_at_msg_list.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/menu/menu_system_message.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/res/menu/menu_system_message.xml"
+    }
+]

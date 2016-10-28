@@ -1,0 +1,101 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:' + "2.1.0"
+    }
+}
+
+apply plugin: 'android'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], exclude: ['multidex.1.0.1.jar', 'multidex-instrumentation.1.0.1.jar'], dir: 'libs')
+    compile 'com.android.support:multidex:1.0.1'
+    compile 'com.android.support:multidex-instrumentation:1.0.1'
+    compile project(':OneSDK')
+    compile project(':YunWangVideoSDK')
+}
+
+
+configurations {
+    compile {
+        description = 'compile classpath'
+        transitive = false
+    }
+}
+
+
+android {
+    //android 6.0 删除了HttpClient相关API，如您的主工程的build.gradle中的compileSdkVersion低于23，请删除libs/org.apache.http.legacy.jar或不编译它
+    compileSdkVersion 23
+    buildToolsVersion "22.0.1"
+
+
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            resources.srcDirs = ['src']
+            aidl.srcDirs = ['src']
+            renderscript.srcDirs = ['src']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+            jniLibs.srcDirs = ['libs']
+
+
+        }
+    }
+
+    signingConfigs {
+        debug {
+            storeFile file("debug.keystore")
+            storePassword "android"
+            keyAlias "androiddebugkey"
+            keyPassword "android"
+
+        }
+        release {
+            storeFile file("debug.keystore")
+            storePassword "android"
+            keyAlias "androiddebugkey"
+            keyPassword "android"
+        }
+    }
+    defaultConfig {
+        multiDexEnabled true
+        minSdkVersion 14
+        targetSdkVersion 23
+    }
+    lintOptions {
+        abortOnError false
+    }
+    buildTypes {
+        release {
+            debuggable false
+            minifyEnabled true
+            signingConfig signingConfigs.release
+            proguardFiles 'proguard.cfg'
+            ndk {
+                abiFilters "armeabi", "armeabi-v7a","x86"
+            }
+        }
+
+        debug {
+            signingConfig signingConfigs.debug
+            debuggable true
+            testCoverageEnabled true
+            ndk {
+                abiFilters "armeabi", "armeabi-v7a","x86"
+            }
+        }
+    }
+}
+

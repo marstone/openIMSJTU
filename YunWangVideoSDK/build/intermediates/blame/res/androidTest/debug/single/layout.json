@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/YunWangVideoSDK/build/intermediates/res/merged/androidTest/debug/layout/taorecorder_timeline.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/YunWangVideoSDK/build/intermediates/bundles/debug/res/layout/taorecorder_timeline.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/YunWangVideoSDK/build/intermediates/res/merged/androidTest/debug/layout/aliwx_sv_select_dialog.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/YunWangVideoSDK/build/intermediates/bundles/debug/res/layout/aliwx_sv_select_dialog.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/YunWangVideoSDK/build/intermediates/res/merged/androidTest/debug/layout/aliwx_sv_recorder_timeline.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/YunWangVideoSDK/build/intermediates/bundles/debug/res/layout/aliwx_sv_recorder_timeline.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/YunWangVideoSDK/build/intermediates/res/merged/androidTest/debug/layout/taorecorcer_activity_filter.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/YunWangVideoSDK/build/intermediates/bundles/debug/res/layout/taorecorcer_activity_filter.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/YunWangVideoSDK/build/intermediates/res/merged/androidTest/debug/layout/taorecorder_uik_circular_progress.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/YunWangVideoSDK/build/intermediates/bundles/debug/res/layout/taorecorder_uik_circular_progress.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/YunWangVideoSDK/build/intermediates/res/merged/androidTest/debug/layout/aliwx_sv_select_dialog_singlechoice.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/YunWangVideoSDK/build/intermediates/bundles/debug/res/layout/aliwx_sv_select_dialog_singlechoice.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/YunWangVideoSDK/build/intermediates/res/merged/androidTest/debug/layout/aliwx_sv_select_dialog_item.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/YunWangVideoSDK/build/intermediates/bundles/debug/res/layout/aliwx_sv_select_dialog_item.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/YunWangVideoSDK/build/intermediates/res/merged/androidTest/debug/layout/aliwx_sv_select_dialog_multichoice.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/YunWangVideoSDK/build/intermediates/bundles/debug/res/layout/aliwx_sv_select_dialog_multichoice.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/YunWangVideoSDK/build/intermediates/res/merged/androidTest/debug/layout/taorecorder_activity_taoplayvideo.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/YunWangVideoSDK/build/intermediates/bundles/debug/res/layout/taorecorder_activity_taoplayvideo.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/YunWangVideoSDK/build/intermediates/res/merged/androidTest/debug/layout/aliwx_sv_recorder_activity_playvideo.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/YunWangVideoSDK/build/intermediates/bundles/debug/res/layout/aliwx_sv_recorder_activity_playvideo.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/YunWangVideoSDK/build/intermediates/res/merged/androidTest/debug/layout/taorecorder_dialog_layout.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/YunWangVideoSDK/build/intermediates/bundles/debug/res/layout/taorecorder_dialog_layout.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/YunWangVideoSDK/build/intermediates/res/merged/androidTest/debug/layout/aliwx_sv_record_alert_dialog.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/YunWangVideoSDK/build/intermediates/bundles/debug/res/layout/aliwx_sv_record_alert_dialog.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/YunWangVideoSDK/build/intermediates/res/merged/androidTest/debug/layout/aliwx_sv_recorder_activity_recorder.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/YunWangVideoSDK/build/intermediates/bundles/debug/res/layout/aliwx_sv_recorder_activity_recorder.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/YunWangVideoSDK/build/intermediates/res/merged/androidTest/debug/layout/taorecorder_activity_recorder.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/YunWangVideoSDK/build/intermediates/bundles/debug/res/layout/taorecorder_activity_recorder.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/YunWangVideoSDK/build/intermediates/res/merged/androidTest/debug/layout/taorecorder_view_radio_item.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/YunWangVideoSDK/build/intermediates/bundles/debug/res/layout/taorecorder_view_radio_item.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/YunWangVideoSDK/build/intermediates/res/merged/androidTest/debug/layout/aliwx_sv_alert_dialog.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/YunWangVideoSDK/build/intermediates/bundles/debug/res/layout/aliwx_sv_alert_dialog.xml"
+    }
+]

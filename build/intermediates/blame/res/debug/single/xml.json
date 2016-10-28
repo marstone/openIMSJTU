@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/xml/pref_general.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/res/xml/pref_general.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/xml/pref_headers.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/res/xml/pref_headers.xml"
+    }
+]

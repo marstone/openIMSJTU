@@ -1,0 +1,324 @@
+# view res/layout/demo_fragment_tabs.xml #generated:14
+-keep class android.support.v4.app.FragmentTabHost { <init>(...); }
+
+# view res/layout/aliwx_activity_at_msg_list.xml #generated:47
+# view res/layout/aliwx_multi_image_player.xml #generated:7
+# view res/layout/aliwx_smiley_detail_layout.xml #generated:8
+# view res/layout/aliwx_smiley_layout.xml #generated:8
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view AndroidManifest.xml #generated:264
+-keep class com.alibaba.mobileim.appmonitor.floatview.FloatViewActivity { <init>(...); }
+
+# view res/layout/aliwx_tooltip_chatwindow_rec_funbar.xml #generated:9
+-keep class com.alibaba.mobileim.appmonitor.tiptool.ExLinearLayout { <init>(...); }
+
+# view res/layout/aliwx_tooltip_chatwindow_rec_funbar.xml #generated:16
+-keep class com.alibaba.mobileim.appmonitor.tiptool.ExListView { <init>(...); }
+
+# view res/layout/aliwx_tooltip_chatwindow.xml #generated:1
+# view res/layout/aliwx_tooltip_chatwindow_2.xml #generated:1
+-keep class com.alibaba.mobileim.appmonitor.tiptool.ExRelativeLayout { <init>(...); }
+
+# view res/layout/aliwx_tooltip_chatwindow_2.xml #generated:8
+-keep class com.alibaba.mobileim.appmonitor.tiptool.HorImageListView { <init>(...); }
+
+# view AndroidManifest.xml #generated:80
+-keep class com.alibaba.mobileim.appmonitor.tiptool.TooltipService { <init>(...); }
+
+# view res/layout/aliwx_template_webview_item.xml #generated:37
+-keep class com.alibaba.mobileim.extra.xblink.webview.XBHybridWebView { <init>(...); }
+
+# view res/layout/aliwx_chatting_detail_gif.xml #generated:2
+# view res/layout/aliwx_gif_smily_show_layout.xml #generated:8
+# view res/layout/aliwx_imageviewer.xml #generated:74
+-keep class com.alibaba.mobileim.fundamental.widget.GifView { <init>(...); }
+
+# view res/layout/aliwx_fragment_contacts.xml #generated:45
+# view res/layout/aliwx_tribe_member_layout.xml #generated:42
+-keep class com.alibaba.mobileim.fundamental.widget.LetterListView { <init>(...); }
+
+# view res/layout/aliwx_image_detail_fragment.xml #generated:14
+-keep class com.alibaba.mobileim.fundamental.widget.MutliImageGifView { <init>(...); }
+
+# view res/layout/aliwx_chatting_detail_grid.xml #generated:2
+# view res/layout/aliwx_fragment_send_at_message_detail.xml #generated:119
+# view res/layout/aliwx_fragment_send_at_message_detail.xml #generated:150
+-keep class com.alibaba.mobileim.fundamental.widget.NoScrollGridView { <init>(...); }
+
+# view res/layout/aliwx_chatting_detail_smily.xml #generated:30
+-keep class com.alibaba.mobileim.fundamental.widget.PageControlView { <init>(...); }
+
+# view res/layout/aliwx_chatting_detail_item.xml #generated:343
+# view res/layout/aliwx_chatting_detail_item.xml #generated:81
+# view res/layout/aliwx_enlarge_enhanced_text.xml #generated:27
+# view res/layout/aliwx_template_horizontal_item.xml #generated:24
+# view res/layout/aliwx_template_horizontal_item.xml #generated:35
+# view res/layout/aliwx_template_text_item.xml #generated:18
+-keep class com.alibaba.mobileim.fundamental.widget.PatchedTextView { <init>(...); }
+
+# view res/layout/aliwx_chatting_detail_download_image_progress.xml #generated:2
+# view res/layout/aliwx_chatting_detail_upload_video_progress.xml #generated:2
+# view res/layout/aliwx_image_detail_fragment.xml #generated:74
+-keep class com.alibaba.mobileim.fundamental.widget.ProgressWheel { <init>(...); }
+
+# view res/layout/aliwx_chatting_detail.xml #generated:149
+-keep class com.alibaba.mobileim.fundamental.widget.RecordButton { <init>(...); }
+
+# view res/layout/aliwx_chatting_detail_download_video_progress.xml #generated:2
+-keep class com.alibaba.mobileim.fundamental.widget.SectorProgressWheel { <init>(...); }
+
+# view res/layout/aliwx_image_detail_fragment.xml #generated:7
+-keep class com.alibaba.mobileim.fundamental.widget.TouchImageView { <init>(...); }
+
+# view res/layout/aliwx_chatting_detail_smily.xml #generated:14
+# view res/layout/aliwx_chatting_detail_smily.xml #generated:22
+-keep class com.alibaba.mobileim.fundamental.widget.ViewScroller { <init>(...); }
+
+# view res/layout/aliwx_chatting_detail_item.xml #generated:25
+# view res/layout/aliwx_chatting_detail_item.xml #generated:259
+# view res/layout/aliwx_chatting_detail_left_right_head.xml #generated:14
+# view res/layout/aliwx_chatting_detail_left_right_head.xml #generated:6
+# view res/layout/aliwx_multi_pick_gallery_item.xml #generated:8
+# view res/layout/aliwx_template_custom_item.xml #generated:16
+# view res/layout/aliwx_template_custom_item.xml #generated:9
+# view res/layout/aliwx_template_flow_item.xml #generated:32
+# view res/layout/aliwx_template_horizontal_item.xml #generated:48
+# view res/layout/aliwx_template_horizontal_item.xml #generated:7
+# view res/layout/aliwx_template_vertical_item.xml #generated:42
+# view res/layout/demo_activity_contact_setting.xml #generated:20
+# view res/layout/demo_activity_edit_tribe_info.xml #generated:30
+# view res/layout/demo_activity_tribe_info.xml #generated:28
+# view res/layout/demo_contact_system_message_item.xml #generated:14
+# view res/layout/demo_contacts_item.xml #generated:22
+# view res/layout/demo_custom_tribe_msg_layout.xml #generated:7
+# view res/layout/demo_system_message_item.xml #generated:14
+# view res/layout/demo_tribe_item.xml #generated:29
+# view res/layout/demo_tribe_members_item.xml #generated:8
+-keep class com.alibaba.mobileim.fundamental.widget.WXNetworkImageView { <init>(...); }
+
+# view res/layout/aliwx_select_dialog.xml #generated:26
+-keep class com.alibaba.mobileim.fundamental.widget.WxAlertController$RecycleListView { <init>(...); }
+
+# view res/layout/aliwx_feedback_edit_view.xml #generated:2
+# view res/layout/aliwx_search_text.xml #generated:41
+# view res/layout/demo_activity_edit_my_tribe_profile.xml #generated:12
+# view res/layout/demo_fragment_add_contact.xml #generated:24
+# view res/layout/demo_fragment_find_contact.xml #generated:35
+-keep class com.alibaba.mobileim.fundamental.widget.WxEditText { <init>(...); }
+
+# view res/layout/aliwx_fragment_contacts.xml #generated:33
+# view res/layout/aliwx_tribe_member_layout.xml #generated:29
+-keep class com.alibaba.mobileim.fundamental.widget.refreshlist.PullToRefreshDummyHeadListView { <init>(...); }
+
+# view res/layout/aliwx_chatting_detail.xml #generated:207
+# view res/layout/aliwx_chatting_detail_list.xml #generated:2
+# view res/layout/aliwx_fragment_at_msg_list.xml #generated:27
+# view res/layout/aliwx_message.xml #generated:11
+-keep class com.alibaba.mobileim.fundamental.widget.refreshlist.PullToRefreshListView { <init>(...); }
+
+# view res/layout/activity_chatting.xml #generated:17
+# view res/layout/activity_conversation_list.xml #generated:17
+# view res/layout/demo_activity_tribe_members.xml #generated:44
+# view res/layout/demo_fragment_tribe.xml #generated:16
+-keep class com.alibaba.mobileim.fundamental.widget.refreshlist.YWPullToRefreshListView { <init>(...); }
+
+# view res/layout/aliwx_at_message_receive_item.xml #generated:15
+# view res/layout/aliwx_message_item.xml #generated:8
+# view res/layout/aliwx_send_at_msg_detail_contact_item.xml #generated:6
+-keep class com.alibaba.mobileim.fundamental.widget.roundedimage.RoundedImageView { <init>(...); }
+
+# view res/layout/aliwx_activity_at_msg_list.xml #generated:35
+-keep class com.alibaba.mobileim.fundamental.widget.slidingtab.SlidingTabLayout { <init>(...); }
+
+# view AndroidManifest.xml #generated:224
+-keep class com.alibaba.mobileim.kit.CloudPwdSettingHintActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:231
+-keep class com.alibaba.mobileim.kit.chat.EnlargeChattingTextActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:142
+-keep class com.alibaba.mobileim.kit.chat.SelectTribeMemberActivity { <init>(...); }
+
+# view res/layout/aliwx_chatting_expand_view_pager_layout.xml #generated:15
+# view res/layout/aliwx_smiley_detail_layout.xml #generated:13
+-keep class com.alibaba.mobileim.kit.chat.view.CirclePageIndicator { <init>(...); }
+
+# view res/layout/aliwx_enlarge_enhanced_text.xml #generated:2
+-keep class com.alibaba.mobileim.kit.chat.widget.BounceScrollView { <init>(...); }
+
+# view res/layout/aliwx_audio_flipper_from.xml #generated:48
+# view res/layout/aliwx_audio_flipper_to.xml #generated:48
+-keep class com.alibaba.mobileim.kit.chat.widget.FixedViewFlipper { <init>(...); }
+
+# view AndroidManifest.xml #generated:207
+-keep class com.alibaba.mobileim.kit.imageviewer.ShowImageActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:242
+-keep class com.alibaba.mobileim.kit.video.IMPlayVideoDetailActivity { <init>(...); }
+
+# view res/layout/aliwx_activity_videoplayer.xml #generated:25
+-keep class com.alibaba.mobileim.kit.video.view.SquareFrameLayout { <init>(...); }
+
+# view res/layout/aliwx_chatting_expand_view_pager_layout.xml #generated:10
+-keep class com.alibaba.mobileim.kit.widget.WrapContentHeightViewPager { <init>(...); }
+
+# view AndroidManifest.xml #generated:230
+-keep class com.alibaba.mobileim.login.WaitProgresssActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:214
+-keep class com.alibaba.mobileim.ui.FeedbackActvity { <init>(...); }
+
+# view AndroidManifest.xml #generated:54
+-keep class com.alibaba.mobileim.ui.WxChattingActvity { <init>(...); }
+
+# view AndroidManifest.xml #generated:61
+-keep class com.alibaba.mobileim.ui.WxConversationActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:130
+-keep class com.alibaba.mobileim.ui.atmessage.AtMsgListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:136
+-keep class com.alibaba.mobileim.ui.atmessage.SendAtMessageDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:67
+-keep class com.alibaba.mobileim.ui.chat.MultiImageActivity { <init>(...); }
+
+# view res/layout/aliwx_chatting_detail.xml #generated:144
+-keep class com.alibaba.mobileim.ui.common.clipboard.ClipboardEditText { <init>(...); }
+
+# view AndroidManifest.xml #generated:74
+-keep class com.alibaba.mobileim.ui.multi.lightservice.MultiPickGalleryActivity { <init>(...); }
+
+# view res/layout/aliwx_chatting_bottom_selfhelp_menu_layout.xml #generated:2
+-keep class com.alibaba.mobileim.ui.selfhelpmenu.ChattingSelfHelpMenuBar { <init>(...); }
+
+# view res/layout/aliwx_imageview.xml #generated:2
+-keep class com.alibaba.mobileimexternal.ui.fundamental.widget.CircleImageView { <init>(...); }
+
+# view AndroidManifest.xml #generated:92
+-keep class com.alibaba.openIMUISJTU.LoginActivity { <init>(...); }
+
+# view res/xml/pref_headers.xml #generated:5
+-keep class com.alibaba.openim.settings.SettingsActivity$GeneralPreferenceFragment { <init>(...); }
+
+# view res/layout/com_taobao_tae_sdk_web_view_activity_feedback.xml #generated:18
+-keep class com.alibaba.sdk.android.webview.views.HandWriter { <init>(...); }
+
+# view res/layout/__leak_canary_ref_row.xml #generated:24
+-keep class com.alibaba.squareup.leakcanary.internal.DisplayLeakConnectorView { <init>(...); }
+
+# view res/layout/__leak_canary_ref_row.xml #generated:40
+-keep class com.alibaba.squareup.leakcanary.internal.MoreDetailsView { <init>(...); }
+
+# view AndroidManifest.xml #generated:88
+-keep class com.alibaba.tcms.service.ListenerService { <init>(...); }
+
+# view AndroidManifest.xml #generated:236
+-keep class com.alibaba.tcms.service.MonitorActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:83
+-keep class com.alibaba.tcms.service.TCMSService { <init>(...); }
+
+# view AndroidManifest.xml #generated:222
+-keep class com.alibaba.tcms.service.WXKernalService { <init>(...); }
+
+# view AndroidManifest.xml #generated:317
+-keep class com.im.IMPlayRecordVideoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:286
+-keep class com.im.IMRecordVideoActivity { <init>(...); }
+
+# view res/layout/aliwx_sv_select_dialog.xml #generated:26
+-keep class com.im.av.view.WxAlertController$RecycleListView { <init>(...); }
+
+# view AndroidManifest.xml #generated:271
+-keep class com.taobao.TaoPlayRecordVideoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:265
+-keep class com.taobao.TaoRecordVideoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:282
+-keep class com.taobao.TaoVideoFilterActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:278
+-keep class com.taobao.URLDispatchActivity { <init>(...); }
+
+# view res/layout/aliwx_sv_recorder_activity_playvideo.xml #generated:95
+# view res/layout/aliwx_sv_recorder_activity_recorder.xml #generated:64
+# view res/layout/taorecorder_activity_recorder.xml #generated:62
+# view res/layout/taorecorder_activity_taoplayvideo.xml #generated:153
+-keep class com.taobao.av.ui.view.SquareFrameLayout { <init>(...); }
+
+# view res/layout/taorecorder_view_radio_item.xml #generated:2
+-keep class com.taobao.av.ui.view.ThemeRadioButton { <init>(...); }
+
+# view AndroidManifest.xml #generated:109
+-keep class com.taobao.openimui.common.SimpleWebViewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:175
+-keep class com.taobao.openimui.contact.ContactSystemMessageActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:178
+-keep class com.taobao.openimui.contact.FindContactActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:48
+-keep class com.taobao.openimui.demo.DemoApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:103
+-keep class com.taobao.openimui.demo.FragmentTabs { <init>(...); }
+
+# view AndroidManifest.xml #generated:204
+-keep class com.taobao.openimui.privateimage.PictureActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:203
+-keep class com.taobao.openimui.privateimage.PreviewImageActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:114
+-keep class com.taobao.openimui.sample.ChattingFragmentSample { <init>(...); }
+
+# view AndroidManifest.xml #generated:193
+-keep class com.taobao.openimui.sample.ContactSettingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:119
+-keep class com.taobao.openimui.sample.ExpandableContactsActivitySample { <init>(...); }
+
+# view AndroidManifest.xml #generated:185
+-keep class com.taobao.openimui.sample.SelectContactToSendCardActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:198
+-keep class com.taobao.openimui.sample.TribeMsgRecTypeSetActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:124
+-keep class com.taobao.openimui.test.MultiAccountTestActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:148
+-keep class com.taobao.openimui.test.TestActivity1 { <init>(...); }
+
+# view AndroidManifest.xml #generated:149
+-keep class com.taobao.openimui.test.TestActivity2 { <init>(...); }
+
+# view AndroidManifest.xml #generated:181
+-keep class com.taobao.openimui.tribe.EditMyTribeProfileActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:162
+-keep class com.taobao.openimui.tribe.EditTribeInfoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:167
+-keep class com.taobao.openimui.tribe.InviteTribeMemberActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:158
+-keep class com.taobao.openimui.tribe.SearchTribeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:154
+-keep class com.taobao.openimui.tribe.TribeInfoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:150
+-keep class com.taobao.openimui.tribe.TribeMembersActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:189
+-keep class com.taobao.openimui.tribe.TribePersonalSettingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:171
+-keep class com.taobao.openimui.tribe.TribeSystemMessageActivity { <init>(...); }
+

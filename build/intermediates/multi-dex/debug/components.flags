@@ -1,0 +1,225 @@
+-injars /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/transforms/jarMerging/debug/jars/1/1f/combined.jar
+-outjars /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/multi-dex/debug/componentClasses.jar
+
+-libraryjars /Volumes/CODE/Studio/android-sdks/build-tools/22.0.1/lib/shrinkedAndroid.jar
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **,com.android.tools.fd.**,android.support.multidex.MultiDexExtractor
+-dontwarn **
+-printconfiguration /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/multi-dex/debug/components.flags
+
+
+-keep class com.taobao.openimui.demo.DemoApplication {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep class com.alibaba.mobileim.ui.WxChattingActvity {
+    <init>();
+}
+
+-keep class com.alibaba.mobileim.ui.WxConversationActivity {
+    <init>();
+}
+
+-keep class com.alibaba.mobileim.ui.chat.MultiImageActivity {
+    <init>();
+}
+
+-keep class com.alibaba.mobileim.ui.multi.lightservice.MultiPickGalleryActivity {
+    <init>();
+}
+
+-keep class com.alibaba.mobileim.appmonitor.tiptool.TooltipService {
+    <init>();
+}
+
+-keep class com.alibaba.tcms.service.TCMSService {
+    <init>();
+}
+
+-keep class com.alibaba.tcms.service.ListenerService {
+    <init>();
+}
+
+-keep class com.alibaba.openIMUISJTU.LoginActivity {
+    <init>();
+}
+
+-keep class com.taobao.openimui.demo.FragmentTabs {
+    <init>();
+}
+
+-keep class com.taobao.openimui.common.SimpleWebViewActivity {
+    <init>();
+}
+
+-keep class com.taobao.openimui.sample.ChattingFragmentSample {
+    <init>();
+}
+
+-keep class com.taobao.openimui.sample.ExpandableContactsActivitySample {
+    <init>();
+}
+
+-keep class com.taobao.openimui.test.MultiAccountTestActivity {
+    <init>();
+}
+
+-keep class com.alibaba.mobileim.ui.atmessage.AtMsgListActivity {
+    <init>();
+}
+
+-keep class com.alibaba.mobileim.ui.atmessage.SendAtMessageDetailActivity {
+    <init>();
+}
+
+-keep class com.alibaba.mobileim.kit.chat.SelectTribeMemberActivity {
+    <init>();
+}
+
+-keep class com.taobao.openimui.test.TestActivity1 {
+    <init>();
+}
+
+-keep class com.taobao.openimui.test.TestActivity2 {
+    <init>();
+}
+
+-keep class com.taobao.openimui.tribe.TribeMembersActivity {
+    <init>();
+}
+
+-keep class com.taobao.openimui.tribe.TribeInfoActivity {
+    <init>();
+}
+
+-keep class com.taobao.openimui.tribe.SearchTribeActivity {
+    <init>();
+}
+
+-keep class com.taobao.openimui.tribe.EditTribeInfoActivity {
+    <init>();
+}
+
+-keep class com.taobao.openimui.tribe.InviteTribeMemberActivity {
+    <init>();
+}
+
+-keep class com.taobao.openimui.tribe.TribeSystemMessageActivity {
+    <init>();
+}
+
+-keep class com.taobao.openimui.contact.ContactSystemMessageActivity {
+    <init>();
+}
+
+-keep class com.taobao.openimui.contact.FindContactActivity {
+    <init>();
+}
+
+-keep class com.taobao.openimui.tribe.EditMyTribeProfileActivity {
+    <init>();
+}
+
+-keep class com.taobao.openimui.sample.SelectContactToSendCardActivity {
+    <init>();
+}
+
+-keep class com.taobao.openimui.tribe.TribePersonalSettingActivity {
+    <init>();
+}
+
+-keep class com.taobao.openimui.sample.ContactSettingActivity {
+    <init>();
+}
+
+-keep class com.taobao.openimui.sample.TribeMsgRecTypeSetActivity {
+    <init>();
+}
+
+-keep class com.taobao.openimui.privateimage.PreviewImageActivity {
+    <init>();
+}
+
+-keep class com.taobao.openimui.privateimage.PictureActivity {
+    <init>();
+}
+
+-keep class com.alibaba.mobileim.kit.imageviewer.ShowImageActivity {
+    <init>();
+}
+
+-keep class com.alibaba.mobileim.ui.FeedbackActvity {
+    <init>();
+}
+
+-keep class com.alibaba.tcms.service.WXKernalService {
+    <init>();
+}
+
+-keep class com.alibaba.mobileim.kit.CloudPwdSettingHintActivity {
+    <init>();
+}
+
+-keep class com.alibaba.mobileim.login.WaitProgresssActivity {
+    <init>();
+}
+
+-keep class com.alibaba.mobileim.kit.chat.EnlargeChattingTextActivity {
+    <init>();
+}
+
+-keep class com.alibaba.tcms.service.MonitorActivity {
+    <init>();
+}
+
+-keep class com.alibaba.mobileim.kit.video.IMPlayVideoDetailActivity {
+    <init>();
+}
+
+-keep class com.alibaba.mobileim.appmonitor.floatview.FloatViewActivity {
+    <init>();
+}
+
+-keep class com.taobao.TaoRecordVideoActivity {
+    <init>();
+}
+
+-keep class com.taobao.TaoPlayRecordVideoActivity {
+    <init>();
+}
+
+-keep class com.taobao.URLDispatchActivity {
+    <init>();
+}
+
+-keep class com.taobao.TaoVideoFilterActivity {
+    <init>();
+}
+
+-keep class com.im.IMRecordVideoActivity {
+    <init>();
+}
+
+-keep class com.im.IMPlayRecordVideoActivity {
+    <init>();
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.fd.** {
+    <fields>;
+    <methods>;
+}

@@ -1,0 +1,279 @@
+com.android.internal.http.multipart.ByteArrayPartSource
+com.android.internal.http.multipart.FilePart
+com.android.internal.http.multipart.FilePartSource
+com.android.internal.http.multipart.MultipartEntity
+com.android.internal.http.multipart.Part
+com.android.internal.http.multipart.PartBase
+com.android.internal.http.multipart.StringPart
+com.openim.android.dexposed.ClassUtils
+com.openim.android.dexposed.DeviceCheck
+com.openim.android.dexposed.XC_MethodHook:
+    10:11:public XC_MethodHook()
+    13:14:public XC_MethodHook(int)
+    21:21:protected void beforeHookedMethod(com.openim.android.dexposed.XC_MethodHook$MethodHookParam)
+    28:28:protected void afterHookedMethod(com.openim.android.dexposed.XC_MethodHook$MethodHookParam)
+com.openim.android.dexposed.XC_MethodHook$MethodHookParam
+com.openim.android.dexposed.XC_MethodHook$Unhook:
+    91:93:public XC_MethodHook$Unhook(com.openim.android.dexposed.XC_MethodHook,java.lang.reflect.Member)
+    96:96:public java.lang.reflect.Member getHookedMethod()
+    100:100:public com.openim.android.dexposed.XC_MethodHook getCallback()
+com.openim.android.dexposed.XC_MethodHook$XC_MethodKeepHook
+com.openim.android.dexposed.XC_MethodReplacement
+com.openim.android.dexposed.XC_MethodReplacement$1
+com.openim.android.dexposed.XC_MethodReplacement$2
+com.openim.android.dexposed.XC_MethodReplacement$XC_MethodKeepReplacement
+com.openim.android.dexposed.XposedBridge:
+    private static final int RUNTIME_DALVIK
+    private static final int RUNTIME_ART
+    28:442:public XposedBridge()
+    55:68:private static void main()
+    72:81:private static int getRuntime()
+    91:92:public static synchronized void log(java.lang.String)
+    100:101:public static synchronized void log(java.lang.Throwable)
+    110:142:public static com.openim.android.dexposed.XC_MethodHook$Unhook hookMethod(java.lang.reflect.Member,com.openim.android.dexposed.XC_MethodHook)
+    161:165:public static java.util.Set hookAllMethods(java.lang.Class,java.lang.String,com.openim.android.dexposed.XC_MethodHook)
+    169:181:public static varargs com.openim.android.dexposed.XC_MethodHook$Unhook findAndHookMethod(java.lang.Class,java.lang.String,java.lang.Object[])
+    194:197:public static java.util.Set hookAllConstructors(java.lang.Class,com.openim.android.dexposed.XC_MethodHook)
+    205:286:private static java.lang.Object handleHookedMethod(java.lang.reflect.Member,int,java.lang.Object,java.lang.Object,java.lang.Object[])
+    293:297:public static synchronized boolean canDexposed(android.content.Context)
+    303:313:private static boolean loadDexposedLib(android.content.Context)
+    private static native java.lang.Object invokeSuperNative(java.lang.Object,java.lang.Object[],java.lang.reflect.Member,java.lang.Class,java.lang.Class[],java.lang.Class,int)
+    325:339:public static varargs java.lang.Object invokeSuper(java.lang.Object,java.lang.reflect.Member,java.lang.Object[])
+    private static native boolean initNative()
+    private static synchronized native void hookMethodNative(java.lang.reflect.Member,java.lang.Class,int,java.lang.Object)
+    private static native java.lang.Object invokeOriginalMethodNative(java.lang.reflect.Member,int,java.lang.Class[],java.lang.Class,java.lang.Object,java.lang.Object[])
+    378:394:public static java.lang.Object invokeOriginalMethod(java.lang.reflect.Member,java.lang.Object,java.lang.Object[])
+com.openim.android.dexposed.XposedBridge$1
+com.openim.android.dexposed.XposedBridge$AdditionalHookInfo
+com.openim.android.dexposed.XposedBridge$CopyOnWriteSortedSet:
+    401:410:public synchronized boolean add(java.lang.Object)
+    426:427:public synchronized void clear()
+    438:438:public java.lang.Object[] getSnapshot()
+com.openim.android.dexposed.XposedHelpers:
+    23:985:public XposedHelpers()
+    45:50:public static java.lang.Class findClass(java.lang.String,java.lang.ClassLoader)
+    59:78:public static java.lang.reflect.Field findField(java.lang.Class,java.lang.String)
+    84:95:private static java.lang.reflect.Field findFieldRecursiveImpl(java.lang.Class,java.lang.String)
+    105:115:public static java.lang.reflect.Field findFirstFieldByExactType(java.lang.Class,java.lang.Class)
+    128:153:public static varargs java.lang.reflect.Method findMethodExact(java.lang.Class,java.lang.String,java.lang.Object[])
+    172:172:public static varargs java.lang.reflect.Method findMethodExact(java.lang.String,java.lang.ClassLoader,java.lang.String,java.lang.Object[])
+    185:206:public static varargs java.lang.reflect.Method findMethodExact(java.lang.Class,java.lang.String,java.lang.Class[])
+    217:240:public static varargs java.lang.reflect.Method[] findMethodsByExactParameters(java.lang.Class,java.lang.Class,java.lang.Class[])
+    250:300:public static varargs java.lang.reflect.Method findMethodBestMatch(java.lang.Class,java.lang.String,java.lang.Class[])
+    311:311:public static varargs java.lang.reflect.Method findMethodBestMatch(java.lang.Class,java.lang.String,java.lang.Object[])
+    323:331:public static java.lang.reflect.Method findMethodBestMatch(java.lang.Class,java.lang.String,java.lang.Class[],java.lang.Object[])
+    338:342:public static varargs java.lang.Class[] getParameterTypes(java.lang.Object[])
+    349:349:public static varargs java.lang.Class[] getClassesAsArray(java.lang.Class[])
+    353:367:private static varargs java.lang.String getParametersString(java.lang.Class[])
+    372:391:public static varargs java.lang.reflect.Constructor findConstructorExact(java.lang.Class,java.lang.Class[])
+    397:437:public static varargs java.lang.reflect.Constructor findConstructorBestMatch(java.lang.Class,java.lang.Class[])
+    442:442:public static varargs java.lang.reflect.Constructor findConstructorBestMatch(java.lang.Class,java.lang.Object[])
+    446:454:public static java.lang.reflect.Constructor findConstructorBestMatch(java.lang.Class,java.lang.Class[],java.lang.Object[])
+    470:478:public static void setObjectField(java.lang.Object,java.lang.String,java.lang.Object)
+    482:490:public static void setBooleanField(java.lang.Object,java.lang.String,boolean)
+    494:502:public static void setByteField(java.lang.Object,java.lang.String,byte)
+    506:514:public static void setCharField(java.lang.Object,java.lang.String,char)
+    518:526:public static void setDoubleField(java.lang.Object,java.lang.String,double)
+    530:538:public static void setFloatField(java.lang.Object,java.lang.String,float)
+    542:550:public static void setIntField(java.lang.Object,java.lang.String,int)
+    554:562:public static void setLongField(java.lang.Object,java.lang.String,long)
+    566:574:public static void setShortField(java.lang.Object,java.lang.String,short)
+    579:585:public static java.lang.Object getObjectField(java.lang.Object,java.lang.String)
+    591:591:public static java.lang.Object getSurroundingThis(java.lang.Object)
+    596:602:public static boolean getBooleanField(java.lang.Object,java.lang.String)
+    608:614:public static byte getByteField(java.lang.Object,java.lang.String)
+    620:626:public static char getCharField(java.lang.Object,java.lang.String)
+    632:638:public static double getDoubleField(java.lang.Object,java.lang.String)
+    644:650:public static float getFloatField(java.lang.Object,java.lang.String)
+    656:662:public static int getIntField(java.lang.Object,java.lang.String)
+    668:674:public static long getLongField(java.lang.Object,java.lang.String)
+    680:686:public static short getShortField(java.lang.Object,java.lang.String)
+    693:701:public static void setStaticObjectField(java.lang.Class,java.lang.String,java.lang.Object)
+    705:713:public static void setStaticBooleanField(java.lang.Class,java.lang.String,boolean)
+    717:725:public static void setStaticByteField(java.lang.Class,java.lang.String,byte)
+    729:737:public static void setStaticCharField(java.lang.Class,java.lang.String,char)
+    741:749:public static void setStaticDoubleField(java.lang.Class,java.lang.String,double)
+    753:761:public static void setStaticFloatField(java.lang.Class,java.lang.String,float)
+    765:773:public static void setStaticIntField(java.lang.Class,java.lang.String,int)
+    777:785:public static void setStaticLongField(java.lang.Class,java.lang.String,long)
+    789:797:public static void setStaticShortField(java.lang.Class,java.lang.String,short)
+    802:808:public static java.lang.Object getStaticObjectField(java.lang.Class,java.lang.String)
+    814:820:public static boolean getStaticBooleanField(java.lang.Class,java.lang.String)
+    826:832:public static byte getStaticByteField(java.lang.Class,java.lang.String)
+    838:844:public static char getStaticCharField(java.lang.Class,java.lang.String)
+    850:856:public static double getStaticDoubleField(java.lang.Class,java.lang.String)
+    862:868:public static float getStaticFloatField(java.lang.Class,java.lang.String)
+    874:880:public static int getStaticIntField(java.lang.Class,java.lang.String)
+    886:892:public static long getStaticLongField(java.lang.Class,java.lang.String)
+    898:904:public static short getStaticShortField(java.lang.Class,java.lang.String)
+    915:923:public static varargs java.lang.Object callMethod(java.lang.Object,java.lang.String,java.lang.Object[])
+    935:943:public static varargs java.lang.Object callMethod(java.lang.Object,java.lang.String,java.lang.Class[],java.lang.Object[])
+    953:961:public static varargs java.lang.Object callStaticMethod(java.lang.Class,java.lang.String,java.lang.Object[])
+    973:981:public static varargs java.lang.Object callStaticMethod(java.lang.Class,java.lang.String,java.lang.Class[],java.lang.Object[])
+    998:1008:public static varargs java.lang.Object newInstance(java.lang.Class,java.lang.Object[])
+    1014:1024:public static varargs java.lang.Object newInstance(java.lang.Class,java.lang.Class[],java.lang.Object[])
+    1030:1046:public static java.lang.Object setAdditionalInstanceField(java.lang.Object,java.lang.String,java.lang.Object)
+    1050:1064:public static java.lang.Object getAdditionalInstanceField(java.lang.Object,java.lang.String)
+    1068:1082:public static java.lang.Object removeAdditionalInstanceField(java.lang.Object,java.lang.String)
+    1086:1086:public static java.lang.Object setAdditionalStaticField(java.lang.Object,java.lang.String,java.lang.Object)
+    1090:1090:public static java.lang.Object getAdditionalStaticField(java.lang.Object,java.lang.String)
+    1094:1094:public static java.lang.Object removeAdditionalStaticField(java.lang.Object,java.lang.String)
+    1098:1098:public static java.lang.Object setAdditionalStaticField(java.lang.Class,java.lang.String,java.lang.Object)
+    1102:1102:public static java.lang.Object getAdditionalStaticField(java.lang.Class,java.lang.String)
+    1106:1106:public static java.lang.Object removeAdditionalStaticField(java.lang.Class,java.lang.String)
+    1114:1124:public static byte[] assetAsByteArray(android.content.res.Resources,java.lang.String)
+    1132:1144:public static java.lang.String getMD5Sum(java.lang.String)
+com.openim.android.dexposed.callbacks.XCallback:
+    public static final int PRIORITY_DEFAULT
+    public static final int PRIORITY_LOWEST
+    public static final int PRIORITY_HIGHEST
+    15:17:public XCallback(int)
+    66:74:public static final void callAll(com.openim.android.dexposed.callbacks.XCallback$Param)
+    76:76:protected void call(com.openim.android.dexposed.callbacks.XCallback$Param)
+com.openim.android.dexposed.callbacks.XCallback$Param:
+    public final java.lang.Object[] callbacks
+    private android.os.Bundle extra
+    23:25:protected XCallback$Param()
+    27:29:protected XCallback$Param(com.openim.android.dexposed.XposedBridge$CopyOnWriteSortedSet)
+    38:40:public synchronized android.os.Bundle getExtra()
+    45:48:public java.lang.Object getObjectExtra(java.lang.String)
+    53:54:public void setObjectExtra(java.lang.String,java.lang.Object)
+com.openim.hotpatch.ProguardCheck:
+    14:26:public static void check()
+    32:32:public void checkProguard()
+com.openim.hotpatch.patch.PatchMain:
+    69:69:public PatchMain()
+com.openim.hotpatch.patch.PatchResult:
+    68:68:public int getErrocode()
+    76:76:public java.lang.Throwable getThrowbale()
+com.openim.hotpatch.patch.ReadWriteSet:
+    22:30:public synchronized boolean remove(java.lang.Object)
+com.openim.hotpatch.patch.SOLoadManager:
+    private static final java.lang.String TAG
+    private static final java.lang.String ARMEABI
+    private static final java.lang.String X86
+    private static final java.lang.String MIPS
+    private static final java.lang.String ASSERT_ARMEABI_PATH
+    private static final java.lang.String ASSERT_X86_PATH
+    private static final java.lang.String ASSERT_MIPS_PATH
+    316:317:public void loadInetSo()
+com.openim.hotpatch.util.HotPatchUtils:
+    private static final java.lang.String SELECT_RUNTIME_PROPERTY
+    private static final java.lang.String LIB_DALVIK
+    private static final java.lang.String LIB_ART
+    private static final java.lang.String LIB_ART_D
+    12:12:public HotPatchUtils()
+    32:37:public static boolean isYunOSSupport()
+com.openim.updatecenter.hotpatch.DefaultUpdateStrategy:
+    private static final java.lang.String IM_HOTPATH_UPDATE_TIME
+com.openim.updatecenter.hotpatch.HotPatchInfoPacker:
+    16:16:public byte[] packData()
+com.openim.updatecenter.hotpatch.HotPatchPackageManager:
+    public static final java.lang.String TAG
+    public static final java.lang.String IM_HOTPATCH_PACKAGE_PATH
+    public static final java.lang.String IM_HOTPATCH_PACKAGE_MAIN_VERSION
+    public static final java.lang.String IM_HOTPATCH_PACKAGE_PATCH_VERSION
+    public static final java.lang.String IM_PATCHABLE
+    public static final java.lang.String OPENIM_GROUP_NAME
+    291:300:public void queryNewHotpatch(android.content.Context,java.lang.String,java.util.Map,java.lang.String)
+com.openim.updatecenter.hotpatch.HotPatchPackageManager$3
+com.openim.updatecenter.util.FileTool:
+    10:10:public FileTool()
+com.openim.updatecenter.util.PackageLite
+com.openim.updatecenter.util.UpdateCenterUtils:
+    public static final java.lang.String IS_ENABLE_HOTPATCH_KEY
+    private static final java.lang.String IS_TRACE_DVM_CRASH
+    private static final java.lang.String TAG
+    private static android.app.Application sApplication
+    36:36:public UpdateCenterUtils()
+    53:56:public static synchronized android.app.Application getApplication()
+    61:77:private static android.app.Application getSystemApp()
+    136:138:private static boolean isEnableHotPatch(android.app.Application)
+    142:142:private static android.content.pm.PackageInfo getPakageInfoByAtlas(android.content.Context,java.lang.String)
+    146:150:public static int getHotPatchCode(android.app.Application,java.lang.String)
+    192:207:private static boolean versionMatch(android.content.Context,java.lang.String,java.lang.String)
+    211:215:public static boolean isSupportPatch(android.app.Application)
+    238:249:private static final android.content.pm.PackageInfo parsePackageInfo(android.content.Context,java.lang.String)
+    323:329:public static final java.lang.String getVersionName()
+com.ta.utdid2.android.utils.Base64$Coder:
+    public abstract boolean process(byte[],int,int,boolean)
+    public abstract int maxOutputSize(int)
+com.ta.utdid2.android.utils.Base64$Decoder:
+    private static final int SKIP
+    private static final int EQUALS
+    261:261:public int maxOutputSize(int)
+com.ta.utdid2.android.utils.Base64$Encoder:
+    public static final int LINE_GROUPS
+    620:620:public int maxOutputSize(int)
+com.ta.utdid2.core.persistent.FastXmlSerializer:
+    private static final int BUFFER_LEN
+com.ta.utdid2.core.persistent.XmlUtils:
+    20:20:XmlUtils()
+    24:29:public static void skipCurrentTag(org.xmlpull.v1.XmlPullParser)
+    33:40:public static final int convertValueToList(java.lang.CharSequence,java.lang.String[],int)
+    45:53:public static final boolean convertValueToBoolean(java.lang.CharSequence,boolean)
+    58:96:public static final int convertValueToInt(java.lang.CharSequence,int)
+    101:104:public static final int convertValueToUnsignedInt(java.lang.String,int)
+    108:134:public static final int parseUnsignedIntAttribute(java.lang.CharSequence)
+    178:185:public static final void writeListXml(java.util.List,java.io.OutputStream)
+    479:481:public static final java.util.ArrayList readListXml(java.io.InputStream)
+    787:799:public static final void beginDocument(org.xmlpull.v1.XmlPullParser,java.lang.String)
+    805:808:public static final void nextElement(org.xmlpull.v1.XmlPullParser)
+com.ut.mini.UTAnalytics:
+    247:254:public void updateSessionProperties(java.util.Map)
+com.ut.mini.UTFields
+com.ut.mini.UTHitBuilders:
+    20:360:public UTHitBuilders()
+com.ut.mini.UTHitBuilders$UTHitBuilder:
+    public static final java.lang.String FIELD_PAGE
+    public static final java.lang.String FIELD_EVENT_ID
+    public static final java.lang.String FIELD_ARG1
+    public static final java.lang.String FIELD_ARG2
+    public static final java.lang.String FIELD_ARG3
+    public static final java.lang.String FIELD_ARGS
+    80:85:public java.lang.String getProperty(java.lang.String)
+com.ut.mini.UTHybridHelper
+com.ut.mini.UTPageHitHelper:
+    145:146:public synchronized void setReferPage(java.lang.String)
+    164:164:public synchronized java.lang.String getCurrentPage()
+com.ut.mini.UTTracker:
+    82:85:public synchronized java.lang.String getGlobalProperty(java.lang.String)
+    93:98:public synchronized void removeGlobalProperty(java.lang.String)
+com.ut.mini.b.a:
+    31:32:public static void a(boolean)
+    35:36:public static void a(java.lang.String)
+com.ut.mini.base.UTConstants
+com.ut.mini.base.UTConstants$PrivateLogFields
+com.ut.mini.base.d:
+    19:19:public synchronized com.ut.mini.c.a a()
+com.ut.mini.core.a.c:
+    21:24:public static void b(com.ut.mini.core.a.a)
+com.ut.mini.core.d.b:
+    14:14:public b()
+com.ut.mini.core.e:
+    33:34:public synchronized void a(java.util.Map)
+    57:58:public synchronized void h()
+com.ut.mini.core.e.a:
+    56:59:public void b()
+com.ut.mini.core.sign.UTBaseRequestAuthentication:
+    27:27:public java.lang.String getAppSecret()
+com.ut.mini.info.UTMCBuildInfo:
+    private static final java.lang.String BUILD_ID
+    private static final java.lang.String GIT_COMMIT_ID
+    private static final java.lang.String SHORT_SDK_VERSION
+    private static final java.lang.String FULL_SDK_VERSION
+com.ut.mini.internal.UTPlugin
+com.ut.mini.internal.UTTeamWork:
+    public static final java.lang.String DEBUG_API_URL
+    public static final java.lang.String DEBUG_KEY
+    32:33:public void turnOffRealTimeDebug()
+    40:41:public void registerPlugin(com.ut.mini.internal.UTPlugin)
+    48:49:public void unregisterPlugin(com.ut.mini.internal.UTPlugin)
+com.ut.mini.internal.utprivate.UTFunctionAdjuster
+com.ut.mini.internal.utprivate.UTLogAssemble
+com.ut.mini.internal.utprivate.UTMsgIds
+com.ut.mini.plugin.UTMCMsgIds
+com.ut.mini.plugin.UTMCPlugin:
+    11:12:public final void deliverMsgToSDK(int,java.lang.Object)
+com.ut.mini.plugin.a:
+    69:76:public synchronized void a(com.ut.mini.plugin.UTMCPlugin)

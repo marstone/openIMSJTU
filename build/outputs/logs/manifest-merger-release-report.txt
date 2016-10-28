@@ -1,0 +1,669 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:2:1-185:12
+	package
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:4:5-39
+	android:versionName
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:6:5-30
+		INJECTED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml
+		INJECTED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:3:5-51
+	android:versionCode
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:5:5-28
+		INJECTED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml
+		INJECTED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:8:5-116
+MERGED from [com.android.support:multidex:1.0.1] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/AndroidManifest.xml:18:5-42
+MERGED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:8:5-10:40
+MERGED from [openIMSJTU:YunWangVideoSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:8:42-114
+	android:targetSdkVersion
+		INJECTED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml
+		INJECTED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:8:15-41
+		INJECTED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml
+		INJECTED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:9:5-81
+MERGED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:12:5-81
+MERGED from [openIMSJTU:YunWangVideoSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:9:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:10:5-79
+MERGED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:14:5-79
+MERGED from [openIMSJTU:YunWangVideoSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:10:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:11:5-76
+MERGED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:15:5-76
+	android:name
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:11:22-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:12:5-75
+MERGED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:16:5-75
+MERGED from [openIMSJTU:YunWangVideoSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/AndroidManifest.xml:15:5-75
+	android:name
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:12:22-72
+uses-permission#android.permission.READ_SETTINGS
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:13:5-72
+MERGED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:17:5-72
+	android:name
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:13:22-69
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:14:5-73
+MERGED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:18:5-73
+	android:name
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:14:22-70
+uses-permission#android.permission.INTERNET
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:15:5-67
+MERGED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:19:5-67
+MERGED from [openIMSJTU:YunWangVideoSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/AndroidManifest.xml:22:5-67
+	android:name
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:15:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:16:5-80
+MERGED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:13:5-80
+MERGED from [openIMSJTU:YunWangVideoSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/AndroidManifest.xml:24:5-80
+	android:name
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:16:22-77
+uses-permission#android.permission.GET_TASKS
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:17:5-68
+MERGED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:20:5-68
+	android:name
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:17:22-65
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:18:5-71
+MERGED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:21:5-71
+MERGED from [openIMSJTU:YunWangVideoSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/AndroidManifest.xml:19:5-71
+	android:name
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:18:22-68
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:19:5-68
+MERGED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:22:5-68
+MERGED from [openIMSJTU:YunWangVideoSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/AndroidManifest.xml:21:5-68
+	android:name
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:19:22-65
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:20:5-80
+MERGED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:23:5-80
+	android:name
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:20:22-77
+uses-permission#android.permission.VIBRATE
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:21:5-66
+MERGED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:24:5-66
+	android:name
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:21:22-63
+uses-permission#android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:22:5-95
+MERGED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:25:5-95
+	android:name
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:22:22-92
+application
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:24:5-183:19
+MERGED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:44:5-184:19
+MERGED from [openIMSJTU:YunWangVideoSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/AndroidManifest.xml:26:5-104:19
+	android:label
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:28:9-41
+	android:allowBackup
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:26:9-35
+		REJECTED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:45:9-35
+		REJECTED from [openIMSJTU:YunWangVideoSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/AndroidManifest.xml:28:9-36
+	android:icon
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:27:9-42
+	android:theme
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:29:9-40
+	tools:replace
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:30:9-84
+	android:name
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:25:9-64
+		REJECTED from [openIMSJTU:YunWangVideoSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/AndroidManifest.xml:27:9-58
+activity#com.alibaba.mobileim.ui.WxChattingActvity
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:31:9-36:70
+MERGED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:53:9-59:70
+	android:screenOrientation
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:34:13-49
+	android:launchMode
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:56:13-43
+	android:windowSoftInputMode
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:36:13-67
+	android:configChanges
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:33:13-63
+	android:theme
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:35:13-69
+	android:name
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:32:13-69
+activity#com.alibaba.mobileim.ui.WxConversationActivity
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:37:9-41:69
+MERGED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:62:9-67:69
+	android:screenOrientation
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:40:13-49
+	android:launchMode
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:65:13-43
+	android:configChanges
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:39:13-63
+	android:theme
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:41:13-66
+	android:name
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:38:13-74
+activity#com.alibaba.mobileim.ui.chat.MultiImageActivity
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:42:9-47:55
+MERGED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:70:9-76:55
+	android:screenOrientation
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:45:13-47
+	android:launchMode
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:44:13-43
+	android:hardwareAccelerated
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:72:13-48
+	android:windowSoftInputMode
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:47:13-52
+	android:theme
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:46:13-64
+	android:name
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:43:13-75
+activity#com.alibaba.mobileim.ui.multi.lightservice.MultiPickGalleryActivity
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:48:9-52:69
+MERGED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:84:9-88:69
+	android:screenOrientation
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:51:13-49
+	android:configChanges
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:50:13-63
+	android:theme
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:52:13-66
+	android:name
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:49:13-95
+service#com.alibaba.mobileim.appmonitor.tiptool.TooltipService
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:54:9-56:40
+MERGED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:100:9-103:19
+	android:exported
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:56:13-37
+	android:name
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:55:13-82
+service#com.alibaba.tcms.service.TCMSService
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:57:9-60:46
+MERGED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:106:9-110:19
+	android:process
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:60:13-43
+	android:exported
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:59:13-36
+	android:name
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:58:13-64
+service#com.alibaba.tcms.service.ListenerService
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:62:9-64:39
+MERGED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:115:9-118:19
+	android:exported
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:64:13-36
+	android:name
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:63:13-68
+activity#com.alibaba.openIMUISJTU.LoginActivity
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:66:9-76:20
+	android:screenOrientation
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:70:13-49
+	android:label
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:69:13-45
+	android:configChanges
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:68:13-74
+	android:name
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:67:13-42
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:71:13-75:29
+action#android.intent.action.MAIN
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:72:17-69
+	android:name
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:72:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:74:17-77
+	android:name
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:74:27-74
+activity#com.taobao.openimui.demo.FragmentTabs
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:78:9-83:52
+	android:screenOrientation
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:83:13-49
+	android:launchMode
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:81:13-44
+	android:configChanges
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:80:13-63
+	android:theme
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:82:13-53
+	android:name
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:79:13-65
+activity#com.taobao.openimui.common.SimpleWebViewActivity
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:84:9-88:51
+	android:screenOrientation
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:87:13-49
+	android:configChanges
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:86:13-63
+	android:theme
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:88:13-48
+	android:name
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:85:13-76
+activity#com.taobao.openimui.sample.ChattingFragmentSample
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:89:9-93:52
+	android:screenOrientation
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:93:13-49
+	android:windowSoftInputMode
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:92:13-67
+	android:configChanges
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:91:13-63
+	android:name
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:90:13-77
+activity#com.taobao.openimui.sample.ExpandableContactsActivitySample
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:94:9-98:69
+	android:screenOrientation
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:97:13-49
+	android:configChanges
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:96:13-63
+	android:theme
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:98:13-66
+	android:name
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:95:13-87
+activity#com.taobao.openimui.test.MultiAccountTestActivity
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:99:9-103:69
+	android:screenOrientation
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:102:13-49
+	android:configChanges
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:101:13-63
+	android:theme
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:103:13-66
+	android:name
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:100:13-77
+activity#com.alibaba.mobileim.ui.atmessage.AtMsgListActivity
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:105:9-110:69
+MERGED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:132:9-137:69
+	android:screenOrientation
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:109:13-49
+	android:launchMode
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:108:13-44
+	android:configChanges
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:107:13-63
+	android:theme
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:110:13-66
+	android:name
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:106:13-79
+activity#com.alibaba.mobileim.ui.atmessage.SendAtMessageDetailActivity
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:111:9-116:69
+MERGED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:138:9-143:69
+	android:screenOrientation
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:115:13-49
+	android:launchMode
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:114:13-44
+	android:configChanges
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:113:13-63
+	android:theme
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:116:13-66
+	android:name
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:112:13-89
+activity#com.alibaba.mobileim.kit.chat.SelectTribeMemberActivity
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:117:9-121:70
+MERGED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:144:9-149:70
+	android:screenOrientation
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:120:13-49
+	android:windowSoftInputMode
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:121:13-67
+	android:configChanges
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:119:13-63
+	android:theme
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:148:13-66
+	android:name
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:118:13-83
+activity#com.taobao.openimui.test.TestActivity1
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:122:9-75
+	android:name
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:122:19-72
+activity#com.taobao.openimui.test.TestActivity2
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:123:9-75
+	android:name
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:123:19-72
+activity#com.taobao.openimui.tribe.TribeMembersActivity
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:124:9-127:51
+	android:screenOrientation
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:127:13-49
+	android:theme
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:126:13-64
+	android:name
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:125:13-74
+activity#com.taobao.openimui.tribe.TribeInfoActivity
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:128:9-131:51
+	android:screenOrientation
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:131:13-49
+	android:theme
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:130:13-64
+	android:name
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:129:13-71
+activity#com.taobao.openimui.tribe.SearchTribeActivity
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:132:9-135:51
+	android:screenOrientation
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:135:13-49
+	android:theme
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:134:13-64
+	android:name
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:133:13-73
+activity#com.taobao.openimui.tribe.EditTribeInfoActivity
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:136:9-140:51
+	android:screenOrientation
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:140:13-49
+	android:windowSoftInputMode
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:139:13-54
+	android:theme
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:138:13-64
+	android:name
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:137:13-75
+activity#com.taobao.openimui.tribe.InviteTribeMemberActivity
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:141:9-144:51
+	android:screenOrientation
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:144:13-49
+	android:theme
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:143:13-64
+	android:name
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:142:13-79
+activity#com.taobao.openimui.tribe.TribeSystemMessageActivity
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:145:9-148:51
+	android:screenOrientation
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:148:13-49
+	android:theme
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:147:13-64
+	android:name
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:146:13-80
+activity#com.taobao.openimui.contact.ContactSystemMessageActivity
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:150:9-152:67
+	android:theme
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:152:13-64
+	android:name
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:151:13-84
+activity#com.taobao.openimui.contact.FindContactActivity
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:153:9-155:67
+	android:theme
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:155:13-64
+	android:name
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:154:13-75
+activity#com.taobao.openimui.tribe.EditMyTribeProfileActivity
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:156:9-159:67
+	android:screenOrientation
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:158:13-49
+	android:theme
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:159:13-64
+	android:name
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:157:13-80
+activity#com.taobao.openimui.sample.SelectContactToSendCardActivity
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:160:9-163:51
+	android:screenOrientation
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:163:13-49
+	android:theme
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:162:13-64
+	android:name
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:161:13-86
+activity#com.taobao.openimui.tribe.TribePersonalSettingActivity
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:164:9-167:51
+	android:screenOrientation
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:167:13-49
+	android:theme
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:166:13-64
+	android:name
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:165:13-82
+activity#com.taobao.openimui.sample.ContactSettingActivity
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:168:9-172:51
+	android:screenOrientation
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:172:13-49
+	android:label
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:170:13-67
+	android:theme
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:171:13-64
+	android:name
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:169:13-77
+activity#com.taobao.openimui.sample.TribeMsgRecTypeSetActivity
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:173:9-177:51
+	android:screenOrientation
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:177:13-49
+	android:label
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:175:13-74
+	android:theme
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:176:13-64
+	android:name
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:174:13-81
+activity#com.taobao.openimui.privateimage.PreviewImageActivity
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:179:9-89
+	android:name
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:179:19-87
+activity#com.taobao.openimui.privateimage.PictureActivity
+ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:181:9-182:68
+	android:theme
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:182:19-65
+	android:name
+		ADDED from /Volumes/CODE/Studio/Android/openIMSJTU/AndroidManifest.xml:181:19-82
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:28:5-86
+	android:name
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:28:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:29:5-87
+	android:name
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:29:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:30:5-81
+	android:name
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:30:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:31:5-83
+	android:name
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:31:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:32:5-88
+	android:name
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:32:22-85
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:33:5-84
+	android:name
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:33:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:34:5-83
+	android:name
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:34:22-80
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:35:5-92
+	android:name
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:35:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:36:5-93
+	android:name
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:36:22-90
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:37:5-91
+	android:name
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:37:22-88
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:42:5-78
+	android:name
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:42:22-75
+activity#com.alibaba.mobileim.kit.imageviewer.ShowImageActivity
+ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:77:9-83:55
+	android:screenOrientation
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:81:13-49
+	android:hardwareAccelerated
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:79:13-48
+	android:launchMode
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:80:13-43
+	android:windowSoftInputMode
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:83:13-52
+	android:theme
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:82:13-64
+	android:name
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:78:13-82
+activity#com.alibaba.mobileim.ui.FeedbackActvity
+ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:91:9-97:70
+	android:screenOrientation
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:95:13-49
+	android:launchMode
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:94:13-43
+	android:windowSoftInputMode
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:97:13-67
+	android:configChanges
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:93:13-63
+	android:theme
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:96:13-59
+	android:name
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:92:13-67
+service#com.alibaba.tcms.service.WXKernalService
+ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:111:9-112:19
+	android:name
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:111:18-73
+activity#com.alibaba.mobileim.kit.CloudPwdSettingHintActivity
+ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:121:9-126:69
+	android:screenOrientation
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:125:13-49
+	android:launchMode
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:124:13-43
+	android:configChanges
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:123:13-63
+	android:theme
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:126:13-66
+	android:name
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:122:13-80
+activity#com.alibaba.mobileim.login.WaitProgresssActivity
+ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:129:9-85
+	android:name
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:129:19-82
+activity#com.alibaba.mobileim.kit.chat.EnlargeChattingTextActivity
+ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:150:9-154:70
+	android:windowSoftInputMode
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:154:13-67
+	android:configChanges
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:152:13-63
+	android:theme
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:153:13-60
+	android:name
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:151:13-85
+activity#com.alibaba.tcms.service.MonitorActivity
+ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:155:9-160:64
+	android:process
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:159:13-43
+	android:launchMode
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:158:13-48
+	android:exported
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:157:13-36
+	android:theme
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:160:13-61
+	android:name
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:156:13-68
+activity#com.alibaba.mobileim.kit.video.IMPlayVideoDetailActivity
+ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:161:9-182:20
+	android:screenOrientation
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:164:13-49
+	android:configChanges
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:163:13-63
+	android:theme
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:165:13-60
+	android:name
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:162:13-84
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:166:13-181:29
+action#android.intent.action.VIEW
+ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:167:17-69
+	android:name
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:167:25-66
+category#android.intent.category.DEFAULT
+ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:169:17-76
+	android:name
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:169:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:170:17-78
+	android:name
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:170:27-75
+data
+ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:172:17-175:45
+	android:path
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:174:21-53
+	android:host
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:173:21-55
+	android:scheme
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:175:21-42
+activity#com.alibaba.mobileim.appmonitor.floatview.FloatViewActivity
+ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:183:9-96
+	android:name
+		ADDED from [openIMSJTU:OneSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/AndroidManifest.xml:183:19-93
+uses-feature#android.hardware.camera
+ADDED from [openIMSJTU:YunWangVideoSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/AndroidManifest.xml:11:5-60
+	android:name
+		ADDED from [openIMSJTU:YunWangVideoSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/AndroidManifest.xml:11:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from [openIMSJTU:YunWangVideoSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/AndroidManifest.xml:12:5-70
+	android:name
+		ADDED from [openIMSJTU:YunWangVideoSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/AndroidManifest.xml:12:19-67
+uses-feature#android.hardware.camera.flash
+ADDED from [openIMSJTU:YunWangVideoSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/AndroidManifest.xml:13:5-66
+	android:name
+		ADDED from [openIMSJTU:YunWangVideoSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/AndroidManifest.xml:13:19-63
+uses-permission#android.permission.CAMERA
+ADDED from [openIMSJTU:YunWangVideoSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/AndroidManifest.xml:17:5-65
+	android:name
+		ADDED from [openIMSJTU:YunWangVideoSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/AndroidManifest.xml:17:22-62
+uses-permission#android.permission.RECORD_VIDEO
+ADDED from [openIMSJTU:YunWangVideoSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/AndroidManifest.xml:18:5-71
+	android:name
+		ADDED from [openIMSJTU:YunWangVideoSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/AndroidManifest.xml:18:22-68
+uses-permission#android.permission.FLASHLIGHT
+ADDED from [openIMSJTU:YunWangVideoSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/AndroidManifest.xml:20:5-69
+	android:name
+		ADDED from [openIMSJTU:YunWangVideoSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/AndroidManifest.xml:20:22-66
+activity#com.taobao.TaoRecordVideoActivity
+ADDED from [openIMSJTU:YunWangVideoSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/AndroidManifest.xml:29:9-34:20
+	android:screenOrientation
+		ADDED from [openIMSJTU:YunWangVideoSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/AndroidManifest.xml:32:13-49
+	android:configChanges
+		ADDED from [openIMSJTU:YunWangVideoSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/AndroidManifest.xml:31:13-63
+	android:theme
+		ADDED from [openIMSJTU:YunWangVideoSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/AndroidManifest.xml:33:13-60
+	android:name
+		ADDED from [openIMSJTU:YunWangVideoSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/AndroidManifest.xml:30:13-61
+activity#com.taobao.TaoPlayRecordVideoActivity
+ADDED from [openIMSJTU:YunWangVideoSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/AndroidManifest.xml:35:9-41:20
+	android:screenOrientation
+		ADDED from [openIMSJTU:YunWangVideoSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/AndroidManifest.xml:38:13-49
+	android:windowSoftInputMode
+		ADDED from [openIMSJTU:YunWangVideoSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/AndroidManifest.xml:40:13-73
+	android:configChanges
+		ADDED from [openIMSJTU:YunWangVideoSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/AndroidManifest.xml:37:13-63
+	android:theme
+		ADDED from [openIMSJTU:YunWangVideoSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/AndroidManifest.xml:39:13-60
+	android:name
+		ADDED from [openIMSJTU:YunWangVideoSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/AndroidManifest.xml:36:13-65
+activity#com.taobao.URLDispatchActivity
+ADDED from [openIMSJTU:YunWangVideoSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/AndroidManifest.xml:42:9-45:20
+	android:theme
+		ADDED from [openIMSJTU:YunWangVideoSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/AndroidManifest.xml:44:13-60
+	android:name
+		ADDED from [openIMSJTU:YunWangVideoSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/AndroidManifest.xml:43:13-58
+activity#com.taobao.TaoVideoFilterActivity
+ADDED from [openIMSJTU:YunWangVideoSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/AndroidManifest.xml:46:9-49:20
+	android:theme
+		ADDED from [openIMSJTU:YunWangVideoSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/AndroidManifest.xml:48:13-60
+	android:name
+		ADDED from [openIMSJTU:YunWangVideoSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/AndroidManifest.xml:47:13-61
+activity#com.im.IMRecordVideoActivity
+ADDED from [openIMSJTU:YunWangVideoSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/AndroidManifest.xml:50:9-80:20
+	android:screenOrientation
+		ADDED from [openIMSJTU:YunWangVideoSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/AndroidManifest.xml:53:13-49
+	android:configChanges
+		ADDED from [openIMSJTU:YunWangVideoSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/AndroidManifest.xml:52:13-63
+	android:theme
+		ADDED from [openIMSJTU:YunWangVideoSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/AndroidManifest.xml:54:13-60
+	android:name
+		ADDED from [openIMSJTU:YunWangVideoSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/AndroidManifest.xml:51:13-56
+activity#com.im.IMPlayRecordVideoActivity
+ADDED from [openIMSJTU:YunWangVideoSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/AndroidManifest.xml:81:9-103:20
+	android:screenOrientation
+		ADDED from [openIMSJTU:YunWangVideoSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/AndroidManifest.xml:84:13-49
+	android:windowSoftInputMode
+		ADDED from [openIMSJTU:YunWangVideoSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/AndroidManifest.xml:86:13-73
+	android:configChanges
+		ADDED from [openIMSJTU:YunWangVideoSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/AndroidManifest.xml:83:13-63
+	android:theme
+		ADDED from [openIMSJTU:YunWangVideoSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/AndroidManifest.xml:85:13-60
+	android:name
+		ADDED from [openIMSJTU:YunWangVideoSDK:unspecified] /Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/AndroidManifest.xml:82:13-60

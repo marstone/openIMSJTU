@@ -1,0 +1,566 @@
+[
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_tooltip_button.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_tooltip_button.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_sv_strecorder_timeline_clip_selector.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/res/drawable/aliwx_sv_strecorder_timeline_clip_selector.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_common_grey_btn_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_common_grey_btn_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_tooltip_button_middle.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_tooltip_button_middle.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_comment_r_orange_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_comment_r_orange_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_reply_bar_expand_checked.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_reply_bar_expand_checked.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_top_delete_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_top_delete_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/com_taobao_tae_sdk_web_view_activity_sendfeedback_rounded_edittext.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/com_taobao_tae_sdk_web_view_activity_sendfeedback_rounded_edittext.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_send_tab_icon.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_send_tab_icon.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_column_second_grade_color.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_column_second_grade_color.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_reply_bar_face_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_reply_bar_face_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_column_third_grade_color.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_column_third_grade_color.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_reply_bar_record_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_reply_bar_record_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_download_original_button.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_download_original_button.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_weitao_msg_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_weitao_msg_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_sv_common_blue_btn_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/res/drawable/aliwx_sv_common_blue_btn_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_unread_red_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_unread_red_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_tooltip_listview_divider.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_tooltip_listview_divider.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_image_viewer_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_image_viewer_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_common_grey_btn_textcolor.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_common_grey_btn_textcolor.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_search_icon_delete_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_search_icon_delete_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_dialog_content_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_dialog_content_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/demo_login_progress.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/res/drawable/demo_login_progress.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/taorecorde_oktext_selector.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/res/drawable/taorecorde_oktext_selector.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/com_taobao_tae_sdk_root_cer.jpg",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/com_taobao_tae_sdk_root_cer.jpg"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/yw_1222.jpg",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/res/drawable/yw_1222.jpg"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/chatting_selfhelp_bar_keyboard_drawable.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/chatting_selfhelp_bar_keyboard_drawable.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_column_first_grade_color.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_column_first_grade_color.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_comment_l_orange_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_comment_l_orange_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_sv_recorder_ovalbg_stroke.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/res/drawable/aliwx_sv_recorder_ovalbg_stroke.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_contacts_search_btn_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_contacts_search_btn_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_commont_title_btn_text.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_commont_title_btn_text.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_vertical_divider_line.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_vertical_divider_line.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/tooltip_button_middle.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/res/drawable/tooltip_button_middle.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/taorecorder_ovalbg_stroke.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/res/drawable/taorecorder_ovalbg_stroke.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_reply_bar_record_view_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_reply_bar_record_view_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/contacts_search_btn_text_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/res/drawable/contacts_search_btn_text_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_pic_more_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_pic_more_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_my_progress.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_my_progress.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/taorecorder_record_ovalbg_pause.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/res/drawable/taorecorder_record_ovalbg_pause.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_sv_blue_button.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/res/drawable/aliwx_sv_blue_button.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_tooltip_button_middle_with_right.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_tooltip_button_middle_with_right.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/send_at_msg_at_again_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/res/drawable/send_at_msg_at_again_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/demo_common_check_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/res/drawable/demo_common_check_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/com_taobao_tae_sdk_web_view_title_bar_more.9.png",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/com_taobao_tae_sdk_web_view_title_bar_more.9.png"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_tooltip_button_first_checked.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_tooltip_button_first_checked.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_reply_bar_expand_unchecked.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_reply_bar_expand_unchecked.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_sv_common_dialog_white_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/res/drawable/aliwx_sv_common_dialog_white_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_smily_tab_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_smily_tab_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_reply_bar_expand.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_reply_bar_expand.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_alert_dialog_item_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_alert_dialog_item_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/demo_edit_more.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/res/drawable/demo_edit_more.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/com_taobao_tae_sdk_web_view_menu_item_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/com_taobao_tae_sdk_web_view_menu_item_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/taorecorder_backdelete_selector.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/res/drawable/taorecorder_backdelete_selector.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_sysmsg_item_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_sysmsg_item_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_divider.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_divider.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_horizontal_divider_line.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_horizontal_divider_line.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/search_icon_delete_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/res/drawable/search_icon_delete_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_topbar_icon_message_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_topbar_icon_message_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/taorecorder_uik_shape_waitview.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/res/drawable/taorecorder_uik_shape_waitview.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/demo_talk_pop_r_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/res/drawable/demo_talk_pop_r_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_sv_recorder_record_ovalbg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/res/drawable/aliwx_sv_recorder_record_ovalbg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_reply_bar_face_view_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_reply_bar_face_view_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/tooltip_button_last.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/res/drawable/tooltip_button_last.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_sv_record_time_border.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/res/drawable/aliwx_sv_record_time_border.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_sv_alert_dialog_item_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/res/drawable/aliwx_sv_alert_dialog_item_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/demo_talk_pic_pop_r_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/res/drawable/demo_talk_pic_pop_r_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/demo_common_blue_btn_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/res/drawable/demo_common_blue_btn_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_contacts_search_btn_text_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_contacts_search_btn_text_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_tooltip_button_last.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_tooltip_button_last.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_record_btn_orange_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_record_btn_orange_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_tooltip_button_last_checked.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_tooltip_button_last_checked.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_record_btn_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_record_btn_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_smily_delete_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_smily_delete_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/taorecorder_back_selector.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/res/drawable/taorecorder_back_selector.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_reply_bar_show_menu.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_reply_bar_show_menu.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_btn_text_color.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_btn_text_color.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_smily_text_color.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_smily_text_color.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_unread_red_bg2.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_unread_red_bg2.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_topbar_icon_download_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_topbar_icon_download_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_common_dialog_white_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_common_dialog_white_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_center_audio_backgroud_from.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_center_audio_backgroud_from.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_cloud_msg_forget_password.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_cloud_msg_forget_password.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/demo_talk_pop_l_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/res/drawable/demo_talk_pop_l_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/com_taobao_tae_sdk_web_view_title_bar_close.9.png",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/com_taobao_tae_sdk_web_view_title_bar_close.9.png"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/com_taobao_tae_sdk_web_view_activity_sendfeedback_addpicture.9.png",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/com_taobao_tae_sdk_web_view_activity_sendfeedback_addpicture.9.png"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/common_check_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/res/drawable/common_check_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_tooltip_button_first.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_tooltip_button_first.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_comment_r_green_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_comment_r_green_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_record_dialog_bg2.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_record_dialog_bg2.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_record_btn_green_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_record_btn_green_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/demo_progress_bar_states.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/res/drawable/demo_progress_bar_states.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_common_dialog_content_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_common_dialog_content_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_wq_common_grey_btn_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_wq_common_grey_btn_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/tooltip_button_last_checked.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/res/drawable/tooltip_button_last_checked.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_sysmsgbg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_sysmsgbg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/taorecorder_rectbg_time.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/res/drawable/taorecorder_rectbg_time.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_wq_common_green_btn_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_wq_common_green_btn_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_bg_photo_window.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_bg_photo_window.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/tooltip_button_first_checked.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/res/drawable/tooltip_button_first_checked.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_loading_progress.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_loading_progress.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/tooltip_button_first.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/res/drawable/tooltip_button_first.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_comment_l_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_comment_l_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_sv_st_button.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/res/drawable/aliwx_sv_st_button.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_receive_tab_icon.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_receive_tab_icon.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/taorecorder_ovalbg_stroke_pause.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/res/drawable/taorecorder_ovalbg_stroke_pause.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_sv_common_grey_btn_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/res/drawable/aliwx_sv_common_grey_btn_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/tooltip_button.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/res/drawable/tooltip_button.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_common_back_btn_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_common_back_btn_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/taorecorder_timeline_clip_selector.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/res/drawable/taorecorder_timeline_clip_selector.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_common_white_btn_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_common_white_btn_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/pic_more_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/res/drawable/pic_more_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_reply_bar_hide_menu.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_reply_bar_hide_menu.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_time_text_view_border.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_time_text_view_border.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_sv_strecorder_record_ovalbg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/res/drawable/aliwx_sv_strecorder_record_ovalbg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_tooltip_button_middle_checked.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_tooltip_button_middle_checked.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/feedback_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/feedback_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_new_red_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_new_red_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_sv_recorder_ovalbg_stroke_pause.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/res/drawable/aliwx_sv_recorder_ovalbg_stroke_pause.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_common_blue_oval_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_common_blue_oval_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/tooltip_listview_divider.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/res/drawable/tooltip_listview_divider.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_common_blue_btn_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_common_blue_btn_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_friend_item_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_friend_item_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/demo_talk_pic_pop_l_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/res/drawable/demo_talk_pic_pop_l_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_unread_msg_notify_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_unread_msg_notify_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_common_green_btn_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_common_green_btn_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_comment_r_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_comment_r_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/taorecorder_record_ovalbg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/res/drawable/taorecorder_record_ovalbg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_reply_bar_keyboard_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_reply_bar_keyboard_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/contacts_search_btn_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/res/drawable/contacts_search_btn_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_common_check_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_common_check_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/com_taobao_tae_sdk_web_view_activity_sendfeedback_newimagewithdelete_delete_drawable.9.png",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/com_taobao_tae_sdk_web_view_activity_sendfeedback_newimagewithdelete_delete_drawable.9.png"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/taorecorder_progressbar_color.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/res/drawable/taorecorder_progressbar_color.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/common_green_btn_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/res/drawable/common_green_btn_bg.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/com_taobao_tae_sdk_web_view_title_bar_back.9.png",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/com_taobao_tae_sdk_web_view_title_bar_back.9.png"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_sv_recorder_timeline_clip_selector.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/YunWangVideoSDK/unspecified/res/drawable/aliwx_sv_recorder_timeline_clip_selector.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_common_back_btn_bg_white.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_common_back_btn_bg_white.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/tooltip_button_middle_with_right.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/res/drawable/tooltip_button_middle_with_right.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/tooltip_button_middle_checked.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/res/drawable/tooltip_button_middle_checked.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_record_dialog_bg1.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_record_dialog_bg1.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/debug/drawable/aliwx_comment_l_green_bg.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/drawable/aliwx_comment_l_green_bg.xml"
+    }
+]

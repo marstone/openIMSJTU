@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/release/color/aliwx_tab_text_color.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/color/aliwx_tab_text_color.xml"
+    },
+    {
+        "merged": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/res/merged/release/color/aliwx_at_msg_mark_all_read_text_color.xml",
+        "source": "/Volumes/CODE/Studio/Android/openIMSJTU/build/intermediates/exploded-aar/openIMSJTU/OneSDK/unspecified/res/color/aliwx_at_msg_mark_all_read_text_color.xml"
+    }
+]

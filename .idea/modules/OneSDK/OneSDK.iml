@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":OneSDK" external.linked.project.path="$MODULE_DIR$/../../../OneSDK" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="openIMSJTU" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="android-gradle" name="Android-Gradle">
+      <configuration>
+        <option name="GRADLE_PROJECT_PATH" value=":OneSDK" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/../../../OneSDK/build/intermediates/classes/debug" />
+    <output-test url="file://$MODULE_DIR$/../../../OneSDK/build/intermediates/classes/test/debug" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../OneSDK">
+      <sourceFolder url="file://$MODULE_DIR$/../../../OneSDK/build/generated/source/r/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../OneSDK/build/generated/source/aidl/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../OneSDK/build/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../OneSDK/build/generated/source/rs/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../OneSDK/build/generated/res/rs/debug" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../OneSDK/build/generated/res/resValues/debug" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../OneSDK/build/generated/source/r/androidTest/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../OneSDK/build/generated/source/aidl/androidTest/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../OneSDK/build/generated/source/buildConfig/androidTest/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../OneSDK/build/generated/source/rs/androidTest/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../OneSDK/build/generated/res/rs/androidTest/debug" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../OneSDK/build/generated/res/resValues/androidTest/debug" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../OneSDK/src/debug/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../OneSDK/src/debug/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../OneSDK/src/debug/assets" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../OneSDK/src/debug/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../OneSDK/src/debug/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../OneSDK/src/debug/jni" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../OneSDK/src/debug/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../OneSDK/src/testDebug/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../OneSDK/src/testDebug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../OneSDK/src/testDebug/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../OneSDK/src/testDebug/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../OneSDK/src/testDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../OneSDK/src/testDebug/jni" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../OneSDK/src/testDebug/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../OneSDK/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../OneSDK/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../OneSDK/src/main/assets" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../OneSDK/src/main/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../OneSDK/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../OneSDK/src/main/jni" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../OneSDK/src/main/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../OneSDK/src/androidTest/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../OneSDK/src/androidTest/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../OneSDK/src/androidTest/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../OneSDK/src/androidTest/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../OneSDK/src/androidTest/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../OneSDK/src/androidTest/jni" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../OneSDK/src/androidTest/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../OneSDK/src/test/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../OneSDK/src/test/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../OneSDK/src/test/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../OneSDK/src/test/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../OneSDK/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../OneSDK/src/test/jni" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../OneSDK/src/test/rs" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../OneSDK/build/intermediates/assets" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../OneSDK/build/intermediates/blame" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../OneSDK/build/intermediates/bundles" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../OneSDK/build/intermediates/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../OneSDK/build/intermediates/dependency-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../OneSDK/build/intermediates/incremental" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../OneSDK/build/intermediates/incremental-safeguard" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../OneSDK/build/intermediates/jniLibs" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../OneSDK/build/intermediates/lint" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../OneSDK/build/intermediates/res" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../OneSDK/build/intermediates/rs" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../OneSDK/build/intermediates/shaders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../OneSDK/build/intermediates/symbols" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../OneSDK/build/intermediates/transforms" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../OneSDK/build/outputs" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../OneSDK/build/reports" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../OneSDK/build/test-results" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../OneSDK/build/tmp" />
+    </content>
+    <orderEntry type="jdk" jdkName="Android API 23 Platform" jdkType="Android SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="mediaservice-4.1.7" level="project" />
+    <orderEntry type="library" exported="" name="alisdk-security-8" level="project" />
+    <orderEntry type="library" exported="" name="alisdk-rpc-3" level="project" />
+    <orderEntry type="library" exported="" name="alisdk-ut-5" level="project" />
+    <orderEntry type="library" exported="" name="utdid4all-1.0.4" level="project" />
+    <orderEntry type="library" exported="" name="alisdk-system-15" level="project" />
+    <orderEntry type="library" exported="" name="sdk-legacy-support-2.1.0" level="project" />
+    <orderEntry type="library" exported="" name="alisdk-tlog-1" level="project" />
+    <orderEntry type="library" exported="" name="alisdk-kernel-base-2.1.0" level="project" />
+    <orderEntry type="library" exported="" name="alisdk-upload-1" level="project" />
+    <orderEntry type="library" exported="" name="IMKit-2.0.0.3" level="project" />
+    <orderEntry type="library" exported="" name="alisdk-kernel-2.1.0" level="project" />
+    <orderEntry type="library" exported="" name="alisdk-hotpatch-3" level="project" />
+    <orderEntry type="library" exported="" name="IMCore-2.0.0.3" level="project" />
+    <orderEntry type="library" exported="" name="alisdk-ui-7" level="project" />
+    <orderEntry type="library" exported="" name="securityguard-3.1.27" level="project" />
+  </component>
+</module>
