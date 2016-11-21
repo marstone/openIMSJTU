@@ -6,6 +6,7 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.alibaba.mobileim.WXAPI;
@@ -57,7 +58,7 @@ public class EditMyTribeProfileActivity extends Activity {
     }
 
     private void initTitle() {
-        TextView titleBar = (TextView) findViewById(R.id.title_bar);
+        RelativeLayout titleBar = (RelativeLayout) findViewById(R.id.title_bar);
         titleBar.setBackgroundColor(Color.parseColor("#00b4ff"));
         titleBar.setVisibility(View.VISIBLE);
 

@@ -1,0 +1,29 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.taobao.openimui.demo.MoreFragment">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/aliwx_common_bg_color">
+
+
+        <include
+            android:id="@+id/title_self_state"
+            layout="@layout/aliwx_title_self_state" />
+        <include layout="@layout/aliwx_title_bar_shadow" />
+
+        <WebView
+            android:id="@+id/webview_news"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title_self_state"
+            android:layout_alignParentBottom="true" >
+
+        </WebView>
+
+    </RelativeLayout>
+
+</FrameLayout>

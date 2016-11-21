@@ -74,9 +74,6 @@ public class HeadlineFragment extends Fragment implements View.OnClickListener {
         mCacheService = mIMKit.getCacheService();
         mUserId = mIMKit.getIMCore().getLoginUserId();
 
-
-
-
     }
 
     @Override
@@ -84,7 +81,7 @@ public class HeadlineFragment extends Fragment implements View.OnClickListener {
                              Bundle savedInstanceState) {
         mContext = getActivity();
         // Inflate the layout for this fragment
-        mView = inflater.inflate(R.layout.demo_fragment_more, container, false);
+        mView = inflater.inflate(R.layout.sjtu_fragment_headline, container, false);
         init();
         return mView;
     }
@@ -92,7 +89,6 @@ public class HeadlineFragment extends Fragment implements View.OnClickListener {
     protected void init() {
         mContext.getWindow().setWindowAnimations(0);
         initTitle();
-        initTest();
     }
 
     private void initTitle() {
@@ -172,16 +168,5 @@ public class HeadlineFragment extends Fragment implements View.OnClickListener {
         YWLog.e(TAG, "onDestroy");
     }
 
-    private void initTest(){
-        TextView test = (TextView) mView.findViewById(R.id.more_test_multi_account);
-        test.setVisibility(View.VISIBLE);
-        test.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), MultiAccountTestActivity.class);
-                startActivity(intent);
-            }
-        });
-    }
 
 }

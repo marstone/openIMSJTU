@@ -58,7 +58,7 @@ import com.alibaba.tcms.env.TcmsEnvType;
 import com.alibaba.tcms.env.YWEnvManager;
 import com.alibaba.tcms.env.YWEnvType;
 import com.taobao.openimui.common.Notification;
-import com.taobao.openimui.demo.DemoApplication;
+import com.taobao.openimui.demo.OpenIMApplication;
 import com.taobao.openimui.demo.FragmentTabs;
 import com.taobao.openimui.sample.LoginSampleHelper;
 import com.taobao.openimui.sample.NotificationInitSampleHelper;
@@ -138,10 +138,10 @@ public class LoginActivity extends Activity {
 
         loginButton = (Button) findViewById(R.id.login);
         annoyloginButton = (Button) findViewById(R.id.annoylogin);
+        annoyloginButton.setVisibility(View.INVISIBLE);
 
 
-        Bitmap logo = BitmapFactory.decodeResource(getResources(),
-                R.drawable.login_logo_sjtu);
+        Bitmap logo = BitmapFactory.decodeResource(getResources(), R.drawable.login_logo_sjtu);
 
         lg = (ImageView) findViewById(R.id.logo);
         lg.setImageBitmap(logo);
@@ -528,8 +528,8 @@ public class LoginActivity extends Activity {
                                         tcmsEnvType = TcmsEnvType.TEST;
                                     }
 
-                                    EnvManager.getInstance().resetEnvType(DemoApplication.getContext(), tcmsEnvType);
-                                    YWEnvManager.prepare(DemoApplication.getContext(), envType);
+                                    EnvManager.getInstance().resetEnvType(OpenIMApplication.getContext(), tcmsEnvType);
+                                    YWEnvManager.prepare(OpenIMApplication.getContext(), envType);
                                     IMNotificationUtils.showToast("切换环境，程序退出，请再次启动", LoginActivity.this);
                                     ServiceChooseHelper.exitService(LoginActivity.this);//xianzhen: service must restart too.
 
@@ -701,10 +701,12 @@ public class LoginActivity extends Activity {
         if (LoginSampleHelper.sEnvType == YWEnvType.ONLINE){
             if (TextUtils.isEmpty(userIdView.getText())){
                 // userIdView.setText(getRandAccount());
-                userIdView.setText("marstone");
+                // userIdView.setText("marstone");
+                userIdView.setText("");
             }
             if (TextUtils.isEmpty(passwordView.getText())){
-                passwordView.setText("123456");
+                // passwordView.setText("123456");
+                passwordView.setText("");
             }
             if (TextUtils.isEmpty(appKeyView.getText())){
                 appKeyView.setText(LoginSampleHelper.APP_KEY);

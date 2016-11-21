@@ -46,7 +46,7 @@ import java.util.List;
 public class TribeFragment extends Fragment implements AdapterView.OnItemClickListener, AbsListView.OnScrollListener {
 
     protected static final long POST_DELAYED_TIME = 300;
-    private static final String TAG = "TribeFragment";
+    private static final String TAG = TribeFragment.class.getSimpleName();
     private final Handler handler = new Handler();
 
     public IYWTribeService getTribeService() {
@@ -236,7 +236,7 @@ public class TribeFragment extends Fragment implements AdapterView.OnItemClickLi
      * @param v
      */
     private void showPopupMenu(View v) {
-        final View bgView = View.inflate(DemoApplication.getContext(), R.layout.demo_popup_window_bg, null);
+        final View bgView = View.inflate(OpenIMApplication.getContext(), R.layout.demo_popup_window_bg, null);
         bgView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -248,7 +248,7 @@ public class TribeFragment extends Fragment implements AdapterView.OnItemClickLi
         }
         mPopupBackground.showAtLocation(v, Gravity.BOTTOM, 0, 0);
 
-        View view = View.inflate(DemoApplication.getContext(), R.layout.demo_popup_menu, null);
+        View view = View.inflate(OpenIMApplication.getContext(), R.layout.demo_popup_menu, null);
         //创建群组
         TextView tribe = (TextView) view.findViewById(R.id.create_tribe);
         tribe.setOnClickListener(new View.OnClickListener() {

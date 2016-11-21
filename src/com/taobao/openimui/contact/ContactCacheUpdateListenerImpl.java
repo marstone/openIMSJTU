@@ -2,7 +2,7 @@ package com.taobao.openimui.contact;
 
 import com.alibaba.mobileim.contact.IYWContactCacheUpdateListener;
 import com.taobao.openimui.common.Notification;
-import com.taobao.openimui.demo.DemoApplication;
+import com.taobao.openimui.demo.OpenIMApplication;
 
 /**
  * Created by ShuHeng on 16/2/26.
@@ -18,7 +18,7 @@ public class ContactCacheUpdateListenerImpl implements IYWContactCacheUpdateList
      */
     @Override
     public void onFriendCacheUpdate(String currentUserid, String currentAppkey) {
-        Notification.showToastMsg(DemoApplication.getContext(), "好友缓存发生变化");
+        Notification.showToastMsg(OpenIMApplication.getContext(), "好友缓存发生变化");
 
     }
 }

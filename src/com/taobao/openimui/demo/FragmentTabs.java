@@ -107,14 +107,16 @@ public class FragmentTabs extends FragmentActivity {
         mTabHost = (FragmentTabHost) findViewById(android.R.id.tabhost);
         mTabHost.setup(this, getSupportFragmentManager(), R.id.realtabcontent);
 
-        View indicator = getIndicatorView(TAB_HEADLINE);
+        View indicator;
+
+        indicator = getIndicatorView(TAB_MESSAGE);
+        mTabHost.addTab(mTabHost.newTabSpec(TAB_MESSAGE).setIndicator(indicator), mIMKit.getConversationFragmentClass(), null);
+
+        indicator = getIndicatorView(TAB_HEADLINE);
         mTabHost.addTab(mTabHost.newTabSpec(TAB_HEADLINE).setIndicator(indicator), HeadlineFragment.class, null);
 
         indicator = getIndicatorView(TAB_NEWS);
         mTabHost.addTab(mTabHost.newTabSpec(TAB_NEWS).setIndicator(indicator), NewsFragment.class, null);
-
-        indicator = getIndicatorView(TAB_MESSAGE);
-        mTabHost.addTab(mTabHost.newTabSpec(TAB_MESSAGE).setIndicator(indicator), mIMKit.getConversationFragmentClass(), null);
 
         indicator = getIndicatorView(TAB_CONTACT);
         mTabHost.addTab(mTabHost.newTabSpec(TAB_CONTACT).setIndicator(indicator),mIMKit.getContactsFragmentClass(), null);
@@ -130,8 +132,7 @@ public class FragmentTabs extends FragmentActivity {
         mTabHost.setOnTabChangedListener(listener);
         // listener.onTabChanged(TAB_MESSAGE);
         listener.onTabChanged(TAB_HEADLINE);
-
-
+        mTabHost.setCurrentTab(1);
     }
 
     public static final String SYSTEM_TRIBE_CONVERSATION="sysTribe";
@@ -428,13 +429,13 @@ public class FragmentTabs extends FragmentActivity {
             public void onDisconnect(int code, String info) {
                 if (code == YWLoginCode.LOGON_FAIL_KICKOFF) {
                     //在其它终端登录，当前用户被踢下线
-                    Toast.makeText(DemoApplication.getContext(), "被踢下线", Toast.LENGTH_LONG).show();
+                    Toast.makeText(OpenIMApplication.getContext(), "被踢下线", Toast.LENGTH_LONG).show();
                     YWLog.i("LoginSampleHelper", "被踢下线");
                     LoginSampleHelper.getInstance().setAutoLoginState(YWLoginState.idle);
                     finish();
-                    Intent intent = new Intent(DemoApplication.getContext(), LoginActivity.class);
+                    Intent intent = new Intent(OpenIMApplication.getContext(), LoginActivity.class);
                     intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                    DemoApplication.getContext().startActivity(intent);
+                    OpenIMApplication.getContext().startActivity(intent);
                 }
             }
 
@@ -644,8 +645,8 @@ public class FragmentTabs extends FragmentActivity {
         mConversationUnreadChangeListener.onUnreadChange();
 
         Intent intent = getIntent();
-        if (intent != null && intent.getStringExtra(LOGIN_SUCCESS) != null){
-            listener.onTabChanged(TAB_MESSAGE);
+        if (intent != null && intent.getStringExtra(LOGIN_SUCCESS) != null) {
+            listener.onTabChanged(TAB_HEADLINE);
             getIntent().removeExtra(LOGIN_SUCCESS);
         }
         YWLog.i(TAG, "onResume");
@@ -703,13 +704,13 @@ public class FragmentTabs extends FragmentActivity {
         long tribeId = intent.getLongExtra(TribeConstants.TRIBE_ID, 0);
         if (tribeId != 0){
             setIntent(intent);
-            mTabHost.setCurrentTab(1);
+            mTabHost.setCurrentTab(3);
         }
 
         String tribeOp = intent.getStringExtra(TribeConstants.TRIBE_OP);
         if (!TextUtils.isEmpty(tribeOp)){
             setIntent(intent);
-            mTabHost.setCurrentTab(2);
+            mTabHost.setCurrentTab(4);
         }
         YWLog.i(TAG, "onNewIntent");
     }

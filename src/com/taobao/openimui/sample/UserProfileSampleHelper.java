@@ -22,7 +22,7 @@ import com.alibaba.mobileim.contact.IYWCrossContactProfileCallback;
 import com.alibaba.mobileim.conversation.YWConversation;
 import com.alibaba.mobileim.lib.model.contact.Contact;
 import com.taobao.openimui.common.Notification;
-import com.taobao.openimui.demo.DemoApplication;
+import com.taobao.openimui.demo.OpenIMApplication;
 
 /**
  * 用户自定义昵称和头像

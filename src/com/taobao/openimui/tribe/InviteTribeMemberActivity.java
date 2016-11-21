@@ -45,7 +45,7 @@ public class InviteTribeMemberActivity extends FragmentActivity {
         YWLog.i(TAG, "onCreate");
     }
 
-    private void initTitle(){
+    private void initTitle() {
         RelativeLayout titleBar = (RelativeLayout) findViewById(R.id.title_bar);
         titleBar.setBackgroundColor(Color.parseColor("#00b4ff"));
         titleBar.setVisibility(View.VISIBLE);
@@ -75,12 +75,12 @@ public class InviteTribeMemberActivity extends FragmentActivity {
             public void onClick(View v) {
                 ContactsAdapter adapter = mFragment.getContactsAdapter();
                 List<IYWContact> list = adapter.getSelectedList();
-                if (list != null && list.size() > 0){
+                if (list != null && list.size() > 0) {
                     mTribeService.inviteMembers(mTribeId, list, new IWxCallback() {
                         @Override
                         public void onSuccess(Object... result) {
-                           Integer retCode = (Integer) result[0];
-                            if (retCode == 0){
+                            Integer retCode = (Integer) result[0];
+                            if (retCode == 0) {
                                 if (tribeType == YWTribeType.CHATTING_GROUP) {
                                     Notification.showToastMsg(InviteTribeMemberActivity.this, "添加群成员成功！");
                                 } else {
@@ -105,8 +105,8 @@ public class InviteTribeMemberActivity extends FragmentActivity {
         });
     }
 
-    private void createFragment(){
-        mFragment =mIMKit.getContactsFragment();
+    private void createFragment() {
+        mFragment = mIMKit.getContactsFragment();
         Bundle bundle = new Bundle();
         bundle.putString(TribeConstants.TRIBE_OP, TribeConstants.TRIBE_INVITE);
         bundle.putLong(TribeConstants.TRIBE_ID, mTribeId);

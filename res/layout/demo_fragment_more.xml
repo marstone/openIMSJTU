@@ -39,6 +39,7 @@
                 <View
                     android:layout_width="fill_parent"
                     android:layout_height="1px"
+                    android:visibility="gone"
                     android:background="@color/more_line_color" />
 
                 <TextView
@@ -46,6 +47,7 @@
                     style="@style/more_item_style"
                     android:layout_width="fill_parent"
                     android:layout_height="@dimen/more_item_height"
+                    android:visibility="gone"
                     android:drawableRight="@drawable/aliwx_arrow"
                     android:text="功能介绍" />
 
@@ -66,6 +68,7 @@
                 <View
                     android:layout_width="fill_parent"
                     android:layout_height="1px"
+                    android:visibility="gone"
                     android:background="@color/more_line_color" />
 
                 <TextView
@@ -73,6 +76,7 @@
                     style="@style/more_item_style"
                     android:layout_width="fill_parent"
                     android:layout_height="@dimen/more_item_height"
+                    android:visibility="gone"
                     android:drawableRight="@drawable/aliwx_arrow"
                     android:text="反        馈" />
 

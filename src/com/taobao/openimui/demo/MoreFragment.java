@@ -54,8 +54,10 @@ public class MoreFragment extends Fragment implements View.OnClickListener {
 
     private static final String TAG = MoreFragment.class
             .getSimpleName();
-    private static final String PAGE1 = "http://chuye.cloud7.com.cn/7086991";
-    private static final String PAGE2 = "http://im.baichuan.taobao.com";
+    //private static final String PAGE1 = "http://chuye.cloud7.com.cn/7086991";
+    //private static final String PAGE2 = "http://im.baichuan.taobao.com";
+    private static final String PAGE1 = "http://net.sjtu.edu.cn";
+    private static final String PAGE2 = "http://net.sjtu.edu.cn";
     private Activity mContext;
     private String mUserId;
     private View logout, more1, more2, more3;
@@ -277,7 +279,7 @@ public class MoreFragment extends Fragment implements View.OnClickListener {
                 viewUrlInSimpleWebView(PAGE2, "功能介绍");
                 break;
             case R.id.more3:
-                EServiceContact contact = new EServiceContact("openim官方客服", 0);//
+                EServiceContact contact = new EServiceContact("上海交通大学网络信息中心", 0); //
                 YWIMKit imKit = LoginSampleHelper.getInstance().getIMKit();
                 Intent intent = imKit.getChattingActivityIntent(contact);
                 startActivity(intent);
@@ -365,11 +367,11 @@ public class MoreFragment extends Fragment implements View.OnClickListener {
             //此时logout已关闭所有基于IMBaseActivity的OpenIM相关Actiivity，s
             @Override
             public void onSuccess(Object... arg0) {
-                Toast.makeText(DemoApplication.getContext(), "退出成功", Toast.LENGTH_SHORT).show();
+                Toast.makeText(OpenIMApplication.getContext(), "退出成功", Toast.LENGTH_SHORT).show();
                 YWLog.i(TAG, "退出成功");
                 LoginSampleHelper.getInstance().setAutoLoginState(YWLoginState.idle);
                 getActivity().finish();
-                Intent intent = new Intent(DemoApplication.getContext(), LoginActivity.class);
+                Intent intent = new Intent(OpenIMApplication.getContext(), LoginActivity.class);
                 startActivity(intent);
             }
 
@@ -380,7 +382,7 @@ public class MoreFragment extends Fragment implements View.OnClickListener {
 
             @Override
             public void onError(int arg0, String arg1) {
-                Toast.makeText(DemoApplication.getContext(), "退出失败,请重新登录", Toast.LENGTH_SHORT).show();
+                Toast.makeText(OpenIMApplication.getContext(), "退出失败,请重新登录", Toast.LENGTH_SHORT).show();
             }
         });
     }
@@ -413,7 +415,7 @@ public class MoreFragment extends Fragment implements View.OnClickListener {
 
     private void initTest(){
         TextView test = (TextView) mView.findViewById(R.id.more_test_multi_account);
-        test.setVisibility(View.VISIBLE);
+        // test.setVisibility(View.VISIBLE);
         test.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

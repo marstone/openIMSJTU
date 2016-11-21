@@ -25,7 +25,7 @@ import com.alibaba.mobileim.ui.thridapp.ParamConstant;
 import com.alibaba.mobileim.utility.YWTrackUtil;
 import com.alibaba.openIMUISJTU.LoginActivity;
 import com.alibaba.openIMUISJTU.R;
-import com.taobao.openimui.demo.DemoApplication;
+import com.taobao.openimui.demo.OpenIMApplication;
 import com.taobao.openimui.sample.LoginSampleHelper;
 
 import java.util.List;
@@ -146,7 +146,7 @@ public class MultiAccountTestActivity extends Activity{
             //此时logout已关闭所有基于IMBaseActivity的OpenIM相关Actiivity，s
             @Override
             public void onSuccess(Object... arg0) {
-                Toast.makeText(DemoApplication.getContext(), "退出成功", Toast.LENGTH_SHORT).show();
+                Toast.makeText(OpenIMApplication.getContext(), "退出成功", Toast.LENGTH_SHORT).show();
                 String account = YWAPI.getCurrentUser();
                 mIMKit = YWAPI.getIMKitInstance(account);
                 LoginSampleHelper.getInstance().setIMKit(mIMKit);
@@ -155,7 +155,7 @@ public class MultiAccountTestActivity extends Activity{
                 if (YWAPI.getLoginAccountList() == null || YWAPI.getLoginAccountList().size() == 0) {
                     finish();
                     LoginSampleHelper.getInstance().setAutoLoginState(YWLoginState.idle);
-                    Intent intent = new Intent(DemoApplication.getContext(), LoginActivity.class);
+                    Intent intent = new Intent(OpenIMApplication.getContext(), LoginActivity.class);
                     startActivity(intent);
                     return;
                 }
@@ -169,7 +169,7 @@ public class MultiAccountTestActivity extends Activity{
 
             @Override
             public void onError(int arg0, String arg1) {
-                Toast.makeText(DemoApplication.getContext(), "退出失败,请重新登录", Toast.LENGTH_SHORT).show();
+                Toast.makeText(OpenIMApplication.getContext(), "退出失败,请重新登录", Toast.LENGTH_SHORT).show();
                 LoginSampleHelper.getInstance().loginOut_Sample();
             }
         });

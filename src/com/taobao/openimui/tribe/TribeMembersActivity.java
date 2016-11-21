@@ -118,7 +118,7 @@ public class TribeMembersActivity extends Activity implements AdapterView.OnItem
         mInviteToJoinTribe.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                ShowInviteToJoinTribeDialog();
+                showInviteToJoinTribeDialog();
             }
         });
 
@@ -456,7 +456,7 @@ public class TribeMembersActivity extends Activity implements AdapterView.OnItem
         finish();
     }
 
-    private void ShowInviteToJoinTribeDialog(){
+    private void showInviteToJoinTribeDialog(){
         View view = View.inflate(this, R.layout.demo_dialog_invite_tribe_member, null);
         mUserId = (EditText) view.findViewById(R.id.userid);
         mAppKey = (EditText) view.findViewById(R.id.appkey);

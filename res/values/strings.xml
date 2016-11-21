@@ -7,7 +7,7 @@
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
-    <string name="app_name">SJTU CPC</string>
+    <string name="app_name">在线支部</string>
     <string name="feedback_demo">反馈</string>
 
     <string name="quit_confirm">退出后您将收不到新消息通知，是否确认退出？</string>

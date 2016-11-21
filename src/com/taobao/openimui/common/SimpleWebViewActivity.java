@@ -40,8 +40,7 @@ public class SimpleWebViewActivity extends Activity {
 
     public static final String URL = "url";
     public static final String TITLE = "title";
-    public final static String[] DB_NAME_LIST = {"webview.db", "webviewCache.db", "webviewCookiesChromium.db"
-            , "webviewCookiesChromiumPrivate.db"};
+    public final static String[] DB_NAME_LIST = {"webview.db", "webviewCache.db", "webviewCookiesChromium.db", "webviewCookiesChromiumPrivate.db"};
 
     private WebView mWebView;
     private String mUrl;

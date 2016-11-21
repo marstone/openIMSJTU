@@ -38,7 +38,7 @@ import com.alibaba.tcms.env.YWEnvType;
 import com.taobao.openimui.common.Notification;
 import com.taobao.openimui.contact.ContactCacheUpdateListenerImpl;
 import com.taobao.openimui.contact.ContactOperateNotifyListenerImpl;
-import com.taobao.openimui.demo.DemoApplication;
+import com.taobao.openimui.demo.OpenIMApplication;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -260,7 +260,7 @@ public class LoginSampleHelper {
                             JSONObject object = new JSONObject(content);
                             if (object.has("text")){
                                 String text = object.getString("text");
-                                Notification.showToastMsgLong(DemoApplication.getContext(), "透传消息，content = " + text);
+                                Notification.showToastMsgLong(OpenIMApplication.getContext(), "透传消息，content = " + text);
                             } else if (object.has("customizeMessageType")){
                                 String customType = object.getString("customizeMessageType");
                                 if (!TextUtils.isEmpty(customType) && customType.equals(ChattingOperationCustomSample.CustomMessageType.READ_STATUS)){

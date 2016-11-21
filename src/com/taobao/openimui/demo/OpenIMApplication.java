@@ -11,10 +11,10 @@ import com.taobao.openimui.sample.InitHelper;
 
 //import android.support.multidex.MultiDexApplication;
 
-public class DemoApplication extends MultiDexApplication {
+public class OpenIMApplication extends MultiDexApplication {
 
-    private static final String TAG = "DemoApplication";
-    public static final String NAMESPACE = "openimdemo";
+    private static final String TAG = "OpenIMApplication";
+    public static final String NAMESPACE = "openimSJTU";
 	//云旺OpenIM的DEMO用到的Application上下文实例
 	private static Context sContext;
 	public static Context getContext(){

@@ -56,7 +56,7 @@ import com.alibaba.wxlib.thread.WXThreadPoolMgr;
 import com.alibaba.wxlib.util.RequestPermissionUtil;
 import com.taobao.openimui.common.Constant;
 import com.taobao.openimui.common.Notification;
-import com.taobao.openimui.demo.DemoApplication;
+import com.taobao.openimui.demo.OpenIMApplication;
 import com.taobao.openimui.privateimage.PictureUtils;
 import com.taobao.openimui.privateimage.PreviewImageActivity;
 
@@ -277,7 +277,7 @@ public class ChattingOperationCustomSample extends IMChattingPageOperateion {
                                 public void run() {
                                     File file = new File(path);
                                     if (file.exists()) {
-                                        mediaService.upload(file, DemoApplication.NAMESPACE, uploadListener);
+                                        mediaService.upload(file, OpenIMApplication.NAMESPACE, uploadListener);
                                     }
                                 }
                             });
@@ -678,7 +678,7 @@ public class ChattingOperationCustomSample extends IMChattingPageOperateion {
     public View getCustomUrlView(Fragment fragment, YWMessage message, String url, YWConversation ywConversation) {
         if (url.equals("https://www.baidu.com/ ")) {
             LinearLayout layout = (LinearLayout) View.inflate(
-                    DemoApplication.getContext(),
+                    OpenIMApplication.getContext(),
                     R.layout.demo_custom_tribe_msg_layout, null);
             TextView textView = (TextView) layout.findViewById(R.id.msg_content);
             textView.setText("I'm from getCustomUrlView!");

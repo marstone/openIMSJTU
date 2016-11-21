@@ -72,34 +72,15 @@
         android:textColorHint="#7F7F7F"
         android:textSize="15sp" />
 
-        <EditText
-            android:id="@+id/appkey"
-            android:layout_width="fill_parent"
-            android:layout_height="44.6dip"
-            android:layout_below="@+id/password"
-            android:layout_centerHorizontal="true"
-            android:background="@drawable/demo_select_account_bottom_normal"
-            android:drawableLeft="@drawable/demo_login_password"
-            android:drawablePadding="18dip"
-            android:gravity="center_vertical"
-            android:hint="请输入APPKEY"
-            android:paddingLeft="12dip"
-            android:paddingRight="12dip"
-            android:singleLine="true"
-            android:textColor="#ff333333"
-            android:textColorHint="#7F7F7F"
-            android:textSize="15sp"
-            android:visibility="gone"/>
-
         <Button
             android:id="@+id/login"
             android:layout_width="fill_parent"
             android:layout_height="35dip"
-            android:layout_below="@+id/appkey"
+            android:layout_below="@+id/password"
             android:layout_marginTop="18dip"
             android:background="@drawable/demo_common_blue_btn_bg"
             android:gravity="center"
-            android:text="实名登录"
+            android:text="党员登录"
             android:textColor="#ffffff"
             android:textSize="15sp" />
 
@@ -116,7 +97,24 @@
             android:textColor="#ffffff"
             android:textSize="15sp" />
 
-
+        <EditText
+            android:id="@+id/appkey"
+            android:layout_width="fill_parent"
+            android:layout_height="44.6dip"
+            android:layout_below="@+id/annoylogin"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/demo_select_account_bottom_normal"
+            android:drawableLeft="@drawable/demo_login_password"
+            android:drawablePadding="18dip"
+            android:gravity="center_vertical"
+            android:hint="请输入APPKEY"
+            android:paddingLeft="12dip"
+            android:paddingRight="12dip"
+            android:singleLine="true"
+            android:textColor="#ff333333"
+            android:textColorHint="#7F7F7F"
+            android:textSize="15sp"
+            android:visibility="gone"/>
 
         <TextView
             android:gravity="center"
