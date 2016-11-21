@@ -118,12 +118,12 @@ public class LoginActivity extends Activity {
         super.onCreate(savedInstanceState);
 
 
-        setContentView(R.layout.demo_login);
+        setContentView(R.layout.sjtu_login);
         loginHelper = LoginSampleHelper.getInstance();
         userIdView = (EditText) findViewById(R.id.account);
         passwordView = (EditText) findViewById(R.id.password);
         appKeyView = (EditText) findViewById(R.id.appkey);
-        appKeyView.setVisibility(View.VISIBLE);
+        appKeyView.setVisibility(View.INVISIBLE);
         progressBar = (ProgressBar) findViewById(R.id.login_progress);
 
         initLoginInfo();
@@ -141,7 +141,7 @@ public class LoginActivity extends Activity {
 
 
         Bitmap logo = BitmapFactory.decodeResource(getResources(),
-                R.drawable.login_logo);
+                R.drawable.login_logo_sjtu);
 
         lg = (ImageView) findViewById(R.id.logo);
         lg.setImageBitmap(logo);
@@ -192,7 +192,7 @@ public class LoginActivity extends Activity {
                 imm.hideSoftInputFromWindow(userIdView.getWindowToken(), 0);
                 imm.hideSoftInputFromWindow(passwordView.getWindowToken(), 0);
                 if (TextUtils.isEmpty(appKey)){
-                    LoginSampleHelper.APP_KEY= YWConstants.YWSDKAppKey;
+                    LoginSampleHelper.APP_KEY = YWConstants.YWSDKAppKey;
                 }
                 init(userId.toString(), appKeyView.getText().toString());
                 progressBar.setVisibility(View.VISIBLE);
@@ -700,14 +700,16 @@ public class LoginActivity extends Activity {
 
         if (LoginSampleHelper.sEnvType == YWEnvType.ONLINE){
             if (TextUtils.isEmpty(userIdView.getText())){
-                userIdView.setText(getRandAccount());
+                // userIdView.setText(getRandAccount());
+                userIdView.setText("marstone");
             }
             if (TextUtils.isEmpty(passwordView.getText())){
-                passwordView.setText(APP_SECRET);
+                passwordView.setText("123456");
             }
             if (TextUtils.isEmpty(appKeyView.getText())){
                 appKeyView.setText(LoginSampleHelper.APP_KEY);
             }
+
         }else if(LoginSampleHelper.sEnvType == YWEnvType.TEST){
             if (TextUtils.isEmpty(userIdView.getText())){
                 Random r = new Random();
@@ -715,7 +717,7 @@ public class LoginActivity extends Activity {
                 userIdView.setText("fk"+suffix);
             }
             if (TextUtils.isEmpty(passwordView.getText())){
-                passwordView.setText(APP_SECRET);
+                passwordView.setText("");
             }
             if (TextUtils.isEmpty(appKeyView.getText())){
                 appKeyView.setText(LoginSampleHelper.APP_KEY_TEST);
@@ -727,7 +729,7 @@ public class LoginActivity extends Activity {
                 userIdView.setText(LoginSampleHelper.DEFAULT_USER_ID);
             }
             if (TextUtils.isEmpty(passwordView.getText())){
-                passwordView.setText(APP_SECRET);
+                passwordView.setText("");
             }
             if (TextUtils.isEmpty(appKeyView.getText())){
                 appKeyView.setText(LoginSampleHelper.APP_KEY);

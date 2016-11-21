@@ -55,11 +55,15 @@ public class FragmentTabs extends FragmentActivity {
     public static final String TAB_CONTACT = "contact";
     public static final String TAB_TRIBE = "tribe";
     public static final String TAB_MORE = "more";
+    public static final String TAB_HEADLINE = "headline";
+    public static final String TAB_NEWS = "news";
 
     private TextView mMessageTab;
     private TextView mContactTab;
     private TextView mTribeTab;
     private TextView mMoreTab;
+    private TextView mHeadlineTab;
+    private TextView mNewsTab;
     private TextView mUnread;
 
     private Drawable mMessagePressed;
@@ -70,6 +74,10 @@ public class FragmentTabs extends FragmentActivity {
     private Drawable mTribeNormal;
     private Drawable mMorePressed;
     private Drawable mMoreNormal;
+    private Drawable mNewsPressed;
+    private Drawable mNewsNormal;
+    private Drawable mHeadlinePressed;
+    private Drawable mHeadlineNormal;
 
     private FragmentTabHost mTabHost;
     private YWIMKit mIMKit;
@@ -98,7 +106,14 @@ public class FragmentTabs extends FragmentActivity {
         setContentView(R.layout.demo_fragment_tabs);
         mTabHost = (FragmentTabHost) findViewById(android.R.id.tabhost);
         mTabHost.setup(this, getSupportFragmentManager(), R.id.realtabcontent);
-        View indicator = getIndicatorView(TAB_MESSAGE);
+
+        View indicator = getIndicatorView(TAB_HEADLINE);
+        mTabHost.addTab(mTabHost.newTabSpec(TAB_HEADLINE).setIndicator(indicator), HeadlineFragment.class, null);
+
+        indicator = getIndicatorView(TAB_NEWS);
+        mTabHost.addTab(mTabHost.newTabSpec(TAB_NEWS).setIndicator(indicator), NewsFragment.class, null);
+
+        indicator = getIndicatorView(TAB_MESSAGE);
         mTabHost.addTab(mTabHost.newTabSpec(TAB_MESSAGE).setIndicator(indicator), mIMKit.getConversationFragmentClass(), null);
 
         indicator = getIndicatorView(TAB_CONTACT);
@@ -113,7 +128,8 @@ public class FragmentTabs extends FragmentActivity {
         mUnread = (TextView) findViewById(R.id.unread);
 
         mTabHost.setOnTabChangedListener(listener);
-        listener.onTabChanged(TAB_MESSAGE);
+        // listener.onTabChanged(TAB_MESSAGE);
+        listener.onTabChanged(TAB_HEADLINE);
 
 
     }
@@ -156,6 +172,8 @@ public class FragmentTabs extends FragmentActivity {
                 setContactText(false);
                 setTribeText(false);
                 setMoreText(false);
+                setNewsText(false);
+                setHeadlineText(false);
                 return;
             }
             if (TAB_CONTACT.equals(tabId)) {
@@ -163,6 +181,8 @@ public class FragmentTabs extends FragmentActivity {
                 setContactText(true);
                 setTribeText(false);
                 setMoreText(false);
+                setNewsText(false);
+                setHeadlineText(false);
                 return;
             }
             if (TAB_TRIBE.equals(tabId)) {
@@ -170,6 +190,8 @@ public class FragmentTabs extends FragmentActivity {
                 setContactText(false);
                 setTribeText(true);
                 setMoreText(false);
+                setNewsText(false);
+                setHeadlineText(false);
                 return;
             }
             if (TAB_MORE.equals(tabId)) {
@@ -177,6 +199,26 @@ public class FragmentTabs extends FragmentActivity {
                 setContactText(false);
                 setTribeText(false);
                 setMoreText(true);
+                setNewsText(false);
+                setHeadlineText(false);
+                return;
+            }
+            if (TAB_HEADLINE.equals(tabId)) {
+                setMessageText(false);
+                setContactText(false);
+                setTribeText(false);
+                setMoreText(false);
+                setNewsText(false);
+                setHeadlineText(true);
+                return;
+            }
+            if (TAB_NEWS.equals(tabId)) {
+                setMessageText(false);
+                setContactText(false);
+                setTribeText(false);
+                setMoreText(false);
+                setNewsText(true);
+                setHeadlineText(false);
                 return;
             }
         }
@@ -195,26 +237,40 @@ public class FragmentTabs extends FragmentActivity {
             indicator.setCompoundDrawables(null, drawable, null, null);
             mMessageTab = indicator;
         } else if (tab.equals(TAB_CONTACT)) {
-            indicator.setText("联系人");
+            indicator.setText("通讯录");
             drawable = getResources().getDrawable(R.drawable.demo_tab_icon_contact_normal);
             drawable.setBounds(0, 0, drawable.getIntrinsicWidth(),
                     drawable.getIntrinsicHeight());
             indicator.setCompoundDrawables(null, drawable, null, null);
             mContactTab = indicator;
         } else if (tab.equals(TAB_TRIBE)) {
-            indicator.setText("群组");
+            indicator.setText("党支部");
             drawable = getResources().getDrawable(R.drawable.demo_tab_icon_tribe_normal);
             drawable.setBounds(0, 0, drawable.getIntrinsicWidth(),
                     drawable.getIntrinsicHeight());
             indicator.setCompoundDrawables(null, drawable, null, null);
             mTribeTab = indicator;
         } else if (tab.equals(TAB_MORE)) {
-            indicator.setText("更多");
+            indicator.setText("设置");
             drawable = getResources().getDrawable(R.drawable.demo_tab_icon_setting_normal);
             drawable.setBounds(0, 0, drawable.getIntrinsicWidth(),
                     drawable.getIntrinsicHeight());
             indicator.setCompoundDrawables(null, drawable, null, null);
             mMoreTab = indicator;
+        } else if (tab.equals(TAB_NEWS)) {
+            indicator.setText("今日新闻");
+            drawable = getResources().getDrawable(R.drawable.demo_tab_icon_message_normal);
+            drawable.setBounds(0, 0, drawable.getIntrinsicWidth(),
+                    drawable.getIntrinsicHeight());
+            indicator.setCompoundDrawables(null, drawable, null, null);
+            mNewsTab = indicator;
+        } else if (tab.equals(TAB_HEADLINE)) {
+            indicator.setText("党建课堂");
+            drawable = getResources().getDrawable(R.drawable.demo_tab_icon_tribe_normal);
+            drawable.setBounds(0, 0, drawable.getIntrinsicWidth(),
+            drawable.getIntrinsicHeight());
+            indicator.setCompoundDrawables(null, drawable, null, null);
+            mHeadlineTab = indicator;
         }
         return tabView;
     }
@@ -520,6 +576,60 @@ public class FragmentTabs extends FragmentActivity {
 
     }
 
+    private void setHeadlineText(boolean isSelected) {
+        Drawable drawable = null;
+        if (isSelected) {
+            mHeadlineTab.setTextColor(getResources().getColor(
+                    R.color.tab_pressed_color));
+            if (mHeadlinePressed == null) {
+                mHeadlinePressed = getResources().getDrawable(
+                        R.drawable.demo_tab_icon_tribe_pressed);
+            }
+            drawable = mHeadlinePressed;
+        } else {
+            mHeadlineTab.setTextColor(getResources().getColor(
+                    R.color.tab_normal_color));
+            if (mHeadlineNormal == null) {
+                mHeadlineNormal = getResources().getDrawable(
+                        R.drawable.demo_tab_icon_tribe_normal);
+            }
+            drawable = mHeadlineNormal;
+        }
+        if (null != drawable) {
+            drawable.setBounds(0, 0, drawable.getIntrinsicWidth(),
+                    drawable.getIntrinsicHeight());
+            mHeadlineTab.setCompoundDrawables(null, drawable, null, null);
+        }
+
+    }
+
+    private void setNewsText(boolean isSelected) {
+        Drawable drawable = null;
+        if (isSelected) {
+            mNewsTab.setTextColor(getResources().getColor(
+                    R.color.tab_pressed_color));
+            if (mNewsPressed == null) {
+                mNewsPressed = getResources().getDrawable(
+                        R.drawable.demo_tab_icon_message_pressed);
+            }
+            drawable = mNewsPressed;
+        } else {
+            mNewsTab.setTextColor(getResources().getColor(
+                    R.color.tab_normal_color));
+            if (mNewsNormal == null) {
+                mNewsNormal = getResources().getDrawable(
+                        R.drawable.demo_tab_icon_message_normal);
+            }
+            drawable = mNewsNormal;
+        }
+        if (null != drawable) {
+            drawable.setBounds(0, 0, drawable.getIntrinsicWidth(),
+                    drawable.getIntrinsicHeight());
+            mNewsTab.setCompoundDrawables(null, drawable, null, null);
+        }
+
+    }
+
     @Override
     protected void onPause() {
         super.onPause();
@@ -545,7 +655,6 @@ public class FragmentTabs extends FragmentActivity {
     protected void onDestroy() {
         YWLog.i(TAG, "onDestroy");
         super.onDestroy();
-
         if (mMessageNormal != null) {
             mMessageNormal.setCallback(null);
         }
@@ -558,7 +667,6 @@ public class FragmentTabs extends FragmentActivity {
         if (mFriendPressed != null) {
             mFriendPressed.setCallback(null);
         }
-
         if (mTribeNormal != null) {
             mTribeNormal.setCallback(null);
         }
@@ -570,6 +678,22 @@ public class FragmentTabs extends FragmentActivity {
         }
         if (mMorePressed != null) {
             mMorePressed.setCallback(null);
+        }
+
+
+        if (mNewsNormal != null) {
+            mNewsNormal.setCallback(null);
+        }
+        if (mNewsPressed != null) {
+            mNewsPressed.setCallback(null);
+        }
+
+
+        if (mHeadlineNormal != null) {
+            mHeadlineNormal.setCallback(null);
+        }
+        if (mHeadlinePressed != null) {
+            mHeadlinePressed.setCallback(null);
         }
     }
 

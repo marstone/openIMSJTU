@@ -74,7 +74,7 @@ public class LoginSampleHelper {
     public static final String DEFAULT_USER_ID = "marstone";
 
 
-    public static YWEnvType sEnvType = YWEnvType.ONLINE;
+    public static YWEnvType sEnvType = YWEnvType.PRE;
 
     // openIM UI解决方案提供的相关API，创建成功后，保存为全局变量使用
     private YWIMKit mIMKit;
