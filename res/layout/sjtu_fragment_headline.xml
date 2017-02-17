@@ -15,73 +15,76 @@
 
         <include layout="@layout/aliwx_title_bar_shadow" />
 
-        <ScrollView
+        <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/title_self_state">
+            android:orientation="vertical">
 
-            <LinearLayout
+            <ImageView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/sjtu_big_data2" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:layout_below="@+id/tribe_master_layout"
+                android:background="@color/more_line_color" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:visibility="gone"
+                android:layout_height="1px"
+                android:layout_below="@+id/tribe_master_layout"
+                android:layout_marginTop="@dimen/common_two_safe_margin"
+                android:background="@color/more_line_color" />
+
+            <LinearLayout
+                android:id="@+id/tribe_description_layout"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/aliwx_white"
+                android:layout_below="@+id/tribe_master_layout"
                 android:orientation="vertical">
 
-                <ImageView
-                    android:layout_width="fill_parent"
+                <TextView
+                    style="@style/more_item_style"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:adjustViewBounds="true"
-                    android:src="@drawable/sjtu_big_data2" />
-
-                <View
-                    android:layout_width="fill_parent"
-                    android:layout_height="1px"
-                    android:layout_below="@+id/tribe_master_layout"
-                    android:background="@color/more_line_color" />
-
-                <View
-                    android:layout_width="fill_parent"
-                    android:layout_height="1px"
-                    android:layout_below="@+id/tribe_master_layout"
-                    android:layout_marginTop="@dimen/common_two_safe_margin"
-                    android:background="@color/more_line_color" />
-
-
-                <LinearLayout
-                    android:id="@+id/tribe_description_layout"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@color/aliwx_white"
-                    android:layout_below="@+id/tribe_master_layout"
-                    android:orientation="vertical">
-
-                    <TextView
-                        style="@style/more_item_style"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="15dp"
-                        android:layout_marginBottom="10dp"
-                        android:text="新闻摘要："/>
-
-                    <TextView
-                        android:id="@+id/news_description"
-                        style="@style/more_item_style"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="20dp"
-                        android:textSize="@dimen/aliwx_font_second_grade"
-                        android:text="摘要内容。" />
-                </LinearLayout>
-
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="新闻摘要："/>
 
                 <TextView
-                    android:id="@+id/more1"
+                    android:id="@+id/news_description"
                     style="@style/more_item_style"
-                    android:layout_width="fill_parent"
-                    android:layout_height="@dimen/more_item_height"
-                    android:drawableRight="@drawable/aliwx_arrow"
-                    android:text="查看原文" />
-
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:textSize="@dimen/aliwx_font_second_grade"
+                    android:text="摘要内容。" />
             </LinearLayout>
-        </ScrollView>
+
+            <TextView
+                android:id="@+id/more1"
+                android:visibility="gone"
+                style="@style/more_item_style"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/more_item_height"
+                android:drawableRight="@drawable/aliwx_arrow"
+                android:text="查看原文" />
+
+            <ListView
+                android:id="@+id/headline_list"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:divider="#b5b5b5"
+                android:dividerHeight="1dp"
+                android:listSelector="@drawable/sjtu_list_selector" />
+
+        </LinearLayout>
 
     </RelativeLayout>
 
